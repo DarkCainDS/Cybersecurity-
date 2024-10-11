@@ -1,0 +1,13 @@
+Si alguien tenía el mismo problema que yo, de que ++no les aparece las columnas sport, dport y Host++, deben hacer lo siguiente:
+
+Hacer click derecho con el mouse sobre la fila donde salen las columnas (por ejemplo, sobre source o time)
+
+Seleccionar Column Preferences
+
+Hacer click en el signo "+" que aparece abajo a la izquierda.
+
+Para HOST tienen que poner de nombre Host o HostName (como quieran), en tipo ponen custom y en campos ponen "http.host". Con eso ya se visualizaría al darle aceptar. Tener en cuenta que seguramente se verá muy pequeño y bien a la izquierda por ser recién añadido, por lo que aparecerá bien a la derecha y configurar su tamaño en sencillo e intuitivo.
+
+Para sport y dport es similar a lo anterior, ponen un nombre acorde a cada uno y en tipo ponen "Src port (resolved)" para sport y "Dest port (resolved)" para dport.
+
+Y listo, sólo queda jugar con los tamaños y ubicación de las columnas, lo cual es muy sencillo. Sólo se hace con el mouse haciendo click en las columnas, estirando los extremos para cambiar el tamaño o haciendo click en el centro de una opción y moverla a otro lugar si se quiere cambiar su ubicación.

@@ -1,0 +1,27 @@
+++Cultura en ciberseguridad:++ Son las ideas, costumbres y comportamientos que se manejan en una empresa que impactan la seguridad de la información.
+
+Principales elementos:
+
+Actitudes
+Comportamientos
+Conocimiento
+Comunicación
+Cumplimiento
+Normas
+Responsabilidades
+++El factor humano estuvo ivolucrado en mas del 85% de brechas de seguridad.++
+
+Pasos para construir una cultura de seguridad fuerte:
+
+Crear objetios estrategicos claros: Nos van a guiar para ver que queremos lograr.
+Medir el estado actual de la cultura: Evaluaciones o entrevistas sobre seguridad.
+Diseñar una estrategia de cambio cultural: Charlas, cursos, practicas
+Ejecutar la estrategia de cambio cultural: Ejecutar estrategia
+Revision y mejora del proceso: Revisar y evaluar
+Recomendaciones:
+
+Proceso constante y sin fin
+Tener un responsable directo de cuidar la cultura
+Debe involucrar todos los niveles de la empres
+Gacelo parte de la evaluacion de rendimiento de los empleados
+Realizar simulacros

@@ -1,0 +1,3 @@
+whois https://portfolio-by-diegoromero.web.app/Home
+
+Comando para saber informacion del dueño del hosting //Usar Solo sobre sitios web propios //Imagen whois Adjunta

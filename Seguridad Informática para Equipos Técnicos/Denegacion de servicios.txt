@@ -1,0 +1,13 @@
+Denegación de servicios (DoS)
+Es un tipo de ataque que consiste en afectar la disponibilidad de los servicios tecnológicos de la organización. Normalmente se realiza saturando los servidores mediante el envío de una gran cantidad de peticiones, de esa forma, no puedan ser utilizados por los usuarios.
+
+Existen diferentes tipos de ataques de denegación de servicio:
+
+Basado en volumen: Busca saturar el ancho de banda. (se mide en bits por segundo o bps).
+Protocolo: Busca consumir los recursos del servidor inundando de peticiones. (Se mide en paquetes por segundo o Pps).
+Capas de aplicación: Generado por grandes cantidades de peticiones hacia servicios web hasta dejarlos fuera de servicio. (Se mide en request por segundo o Rps).
+Una variante de este ataque es el Distributed Denial of Service (DDoS), en el cual se utilizan múltiples equipos infectados (bots pertenecientes a una botnet) para realizar el ataque. Con esto se logra que millones de dispositivos envíen peticiones al mismo tiempo, saturando los servidores.
+
+Es importante saber que es posible contratar los servicios de una botnet para realizar un ataque DDoS (osea, no para que lo contrates tu, sino para que sepas que así te puede atacar quien sea).
+
+El objetivo de este tipo de ataques es lograr que la organización no pueda ofrecer sus servicios, o incluso solicitar un rescate para que el ataque sea detenido.

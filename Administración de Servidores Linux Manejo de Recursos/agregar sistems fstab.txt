@@ -1,0 +1,34 @@
+Agregando el sistema a fstab
+Una vez creados los RAID y los Volúmenes lógicos, ya podemos pasar a montarlos en nuestro sistema para poderles dar uso.
+
+Pasos:
+
+Formateamos a EXT4.
+Agregar a fstab para poderlas usar.
+Extras: puedes crear permisos, grupos, etc.
+Para formatear el sistema, escribimos:
+
+
+mkfs.ext4 /dev/volumegroup/public
+Confirmamos con:
+
+
+lsblk
+Ahora procederemos a montarlos:
+
+
+cd / →Vamos al directorio principal
+ls -la → Listamos
+mkdir public && mkdir private → Creamos las carpetas.
+sudo mount /dev/volumegroup/public /public →Montamos la unidad sobre esa carpeta
+touch /public/new_file.txt
+ls /public
+Finalmente, los añadiremos al archivo fstab, escribiendo:
+
+
+vim /etc/fstab
+En el archivo de configuración añadimos:
+
+
+/dev/volumegroup/private /private ext4  defaults        0       0
+/dev/volumegroup/public/public ext4  defaults        0       0

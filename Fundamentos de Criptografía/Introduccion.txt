@@ -1,0 +1,18 @@
+La criptografía es la ciencia que se encarga de proteger la información transformándola en una forma que solo pueda ser entendida por aquellos que poseen la clave para descifrarla. Este proceso se conoce como cifrado, y el resultado, el criptograma.
+
+Primitivas Criptográficas
+
+Las primitivas criptográficas son los bloques básicos que se utilizan para construir sistemas criptográficos más complejos. Algunas de las primitivas criptográficas más comunes son:
+
+Cifrado por sustitución: reemplaza cada letra o símbolo del mensaje original por otro.
+Cifrado por transposición: cambia el orden de las letras o símbolos del mensaje original.
+Funciones hash: generan un resumen digital de un mensaje.
+Algoritmos de firma digital: permiten verificar la autenticidad de un mensaje y la identidad del remitente.
+Propiedades de la Información
+
+Las propiedades de la información que la criptografía busca proteger son:
+
+Confidencialidad: la información solo debe ser accesible a las personas autorizadas.
+Integridad: la información no debe ser modificada sin autorización.
+Autenticidad: la información debe ser veraz y provenir de la fuente que se indica.
+Repudio: no se debe poder negar el envío o recepción de un mensaje.

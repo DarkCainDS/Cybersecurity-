@@ -1,0 +1,11 @@
+Comandos utilizados en la clase.
+
+Escaneo de equipos conectados: nmap -sP 192.168.2.0/24
+
+Escaneo de puertos: nmap -sT 192.168.2.7
+
+Escaneo que corta el trhee-way handshake (técnica para no dejar rastros): nmap -sS 192.168.2.7
+
+Escaneo Inverse TCP Flag (para darnos cuenta si el equipo es Windows o Unix): nmap -sX 192.168.2.7
+
+Escaneo ACK Flag Probe (estado del Firewall): nmap -sA 192.168.2.7

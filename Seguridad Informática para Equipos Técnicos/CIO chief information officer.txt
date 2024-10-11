@@ -1,0 +1,7 @@
+CIO (Chief Information Officer)
+El director de información es el responsable de la gestión de la información de la empresa y aplica la ciberseguridad en sus desiciones. Sus responsabilidades son:
+
+Mantenerse actualizado sobre las tecnologías de la información y la ciberseguridad.
+Gestionar ciberriesgos al adquirir hardware, software u contratar servicios.
+Promover la ciberseguridad en la empresa (security champion)
+Agregar el requerimiento de seguridad en las inversiones en tecnología.

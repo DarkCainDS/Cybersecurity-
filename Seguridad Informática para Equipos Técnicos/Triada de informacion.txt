@@ -1,0 +1,7 @@
+La triada CID
+
+Confidencialidad: Acceso a la información solo disponible para usuarios que tengan la autorización necesaria.
+
+Integridad: Busca mantener que la información no sufra alguna alteración a su estructura o en dicho caso su eliminación.
+
+Disponibilidad: Tener acceso a la información cada que esta sea solicitada por el usuario y asegurarse de que la información sea accesible en todo momento.

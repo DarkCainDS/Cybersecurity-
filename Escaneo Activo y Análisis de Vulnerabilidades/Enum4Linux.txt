@@ -1,0 +1,19 @@
+Permite obtener información a través del protocolo SMB.
+
+Normalmente, hay unidades compartidas SMB en un servidor a las que se puede conectar y utilizar para ver o transferir archivos. SMB a menudo puede ser un gran punto de partida para un atacante que busca descubrir información sensible. Enu4mlinux es una gran herramientas para conseguir informarción SMB.
+
+¿Por qué usar Enu4mlinux?
+Es una herramienta utilizada para enumerar los recursos compartidos SMB tanto en sistemas Windows como Linux.
+Hace fácil extraer información del objetivo que pertenece a SMB.
+Sintaxis
+enum4linux -option IP
+
+Ejemplo
+enum4linux -a 192.168.0.20
+
+Información importante que brinda Enu4mlinux
+Información del grupo
+Estado del dispositivo
+Información de usuario o contraseñas
+Información del Sistema Operativo
+Contribución creada con los aportes de: Angie Espinoza (Platzi Contributor).

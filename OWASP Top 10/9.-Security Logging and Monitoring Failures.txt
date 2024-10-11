@@ -1,0 +1,7 @@
+Impacto de las Fallas de Registro y Monitoreo de Seguridad
+La inadecuada implementación de mecanismos de registro y monitoreo puede tener varios impactos negativos, como:
+
+Detección tardía de incidentes de seguridad: La falta de registros detallados y relevantes puede retrasar la detección de ataques y violaciones de seguridad.
+Dificultades en la respuesta a incidentes: Sin registros adecuados, puede ser desafiante realizar un análisis forense para entender cómo ocurrió un incidente y cómo mitigarlo.
+Incapacidad para realizar auditorías de seguridad: Los registros son fundamentales para las auditorías de seguridad, y su ausencia puede impedir la verificación del cumplimiento de normativas y estándares de seguridad.
+Falta de visibilidad operativa: La ausencia de monitoreo efectivo impide tener una visión clara del estado de seguridad y operacional de los sistemas.

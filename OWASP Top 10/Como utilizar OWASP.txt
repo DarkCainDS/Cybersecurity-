@@ -1,0 +1,25 @@
+Cómo utilizar OWASP Top 10
+Maneras de uso de OWASP Top 10:
+
+Para crear programas de aseguramiento de aplicaciones donde se debe incluir:
+Metas alcanzables
+Ciclo de vida de desarrollo de software seguro, donde se garantiza que a medida que se crea el producto se pueden implementar los controles de seguridad
+Nivel de madurez de aseguramiento de la aplicación donde es posible utilizar OWASP SAMM donde resume los requerimientos de seguridad en funciones de negocio.
+Para crear eduación continua y detallada en los equipos de desarrollo de software donde podemos utilizar ASVS (Application Security Verification Standar) donde se reune un gran estandar de requerimientos de seguridad debidamente agrupados, codificados y con un codigo CWE asociado.
+Una herramienta utilizada para sensibilizar en ciberseguridad  a los equipos de desarrollo de software es OWASP Juice Shop, la cual es una aplicación vulnerable que contiene gran cantidad de retos.
+Herramientas para laboratorios:
+
+Kali Linux: es una distribución basada en debian con utilidades para penetration testing o pentesting.
+BurpSuite: es un proxy que permite capturar peticiones realizas por el usuario
+Docker: una herramienta que permite empaquetar y desplegar aplicaciones web.
+Enlaces de interes:
+
+<u>https://owaspsamm.org/</u>
+
+<u>https://owasp.org/Top10/es/</u>
+
+<u>https://github.com/platzi/curso-owasp-top-10</u>
+
+<u>https://owasp.org/www-project-juice-shop/</u>
+
+<u>https://owasp.org/www-project-application-security-verification-standard/</u>

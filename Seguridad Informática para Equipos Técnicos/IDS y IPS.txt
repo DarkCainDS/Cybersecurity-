@@ -1,0 +1,27 @@
+++IDS++ (Sistema de Detección de Intrusos) Sólo Detecta actividades maliciosas. ++IPS++ (Sistema de Prevención de Intrusos) Ejecuta una acción ante actividades maliciosas y se encuentra In-line para bloquear la conexión.
+
+Identifican amenazas mediante:
+
+Firmas
+
+Anomalías
+
+Políticas
+
+Un Firewall sólo analiza los Headers TCP/IP, mientras que los IPS/IDS analizan todos los paquetes completos.
+
+Existen diferentes tipos: NIPS Network Intrusion Prevention System Sistema basado en red HIPS Host Intrusion Prevention System Sistema basado en el Host, recopila host mediante el agente en cada equipo para analizarlos. NBA Network Behavior Analysis Analiza tráfico inusual (DDoS) WIPS Wireless Intrusion Prevention System Escanea redes WiFi
+
+Beneficios:
+
+Integración con otras soluciones
+
+Mayor eficiencia en otros controles de seguridad
+
+Ahorro de tiempo
+
+Compliance
+
+Personalizable
+
+Existen como soluciones independientes, en Firewalls de Nueva Generación (NGFW) o en un Gestor Unificado de Amenazas (UTM) y pueden ser Open Source, proveedores de pago o en la nube.

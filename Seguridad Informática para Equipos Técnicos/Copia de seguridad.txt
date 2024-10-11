@@ -1,0 +1,28 @@
+Copias de seguridad
+Es una copia de los datos de una organización, que se realiza con el fin de recuperarlos en caso de los originales se pierdan o corrompan.
+
+Situaciones en las que se puede perder información:
+
+Desastre natural.
+Eliminación accidental.
+Robo.
+Corrupción de información.
+Virus informáticos.
+Métodos de copias de seguridad:
+
+Copia completa: Se realiza una copia de todos los datos de forma periódica, independientemente de si han sido modificados desde la última copia.
+Copia incremental: Se realiza una copia completa como punto de partida, y luego se hace copia de los datos que han sido modificados, tomando como referencia la copia más reciente.
+Copia diferencial: Igual a la incremental, pero siempre se toma como referencia la copia completa.
+Copia en tiempo real (CDP): Se copian los datos en tiempo real, cada vez que se modifica un archivo se lo actualiza la copia de seguridad.
+Consideraciones a la hora de definir un plan de copias de seguridad:
+
+Redundancia/replicación: Evaluar si se deben tener más de una copia de seguridad, y si se deben almacenar en lugares distintos.
+Seguridad y cifrado: Si la información respaldada es sensible, se debe cifrar, o al menos restringir el acceso.
+Refactorización: Evaluar si se debe mantener la información con la estructura o formato original, o si se puede reorganizar o convertir a otro formato.
+Compresión: Para reducir el espacio de almacenamiento.
+Período de retención y limpieza automática: Mantener la información durante el tiempo necesario y eliminar datos obsoletos.
+Validación de integridad: Verificar periódicamente si la información respaldada es correcta y recuperable.
+Otros consideraciones:
+
+RPO (Recovery Point Objective): Tiempo máximo que se puede permitir perder información. Por ejemplo, si se define un RPO de 48 horas, se acepta que se puede perder todo lo realizado las últimas 48 horas antes del evento, ya que se realizarían respaldos cada dos días,
+RTO (Recovery Time Objective): Tiempo máximo que se puede tardar en recuperar la información. Por ejemplo, si se define un RTO de 8 horas, se acepta que posiblemente la organización no pueda operar durante 8 horas a partir del evento, ya que es lo que tarda restaurar la información.

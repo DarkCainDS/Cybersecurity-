@@ -1,0 +1,11 @@
+Recolección de inteligencia pasiva
+
+Iniciamos la máquina virtual de kali Linux
+Abrimos la consola y escribimos
+cd Desktop
+mkdir platzi
+cd platzi
+wget -r platzi . com
+Dentro de la carpeta platzi que se descarga, se puede observar la estructura de la página de platzi.
+el archivo robots.txt indica a los buscadores que indexar y que no.
+NOTA: Para mapear una aplicación web, utilizamos la herramienta wget -r y el archivo robots.txt indica a los buscadores que indexar.

@@ -1,0 +1,33 @@
+BCP (Plan de Continuidad de Negocio)
+La continuidad de negocio es la capacidad de una organización para continuar operando en caso de que ocurra un evento que afecte su operación. Normalmente se definen cuáles son los componentes críticos que deben seguir funcionando a pesar del evento.
+
+El Plan de Continuidad de Negocio es el documento que describe los procedimientos a seguir para asegurar la continuidad de negocio.
+
+Para elaborar un BCP se debe realizar un análisis de impacto de negocio (BIA) para cada posible eventualidad, el cual consiste en identificar:
+
+Principales funciones de negocio.
+RTO (Recovery Time Objective) y RPO (Recovery Point Objective).
+Recursos requeridos por función de negocio.
+Impacto/costo financiero.
+Impacto/costo operacional.
+Impacto/costo legal.
+Se debe hacer un análisis de riesgos:
+
+Identificar amenazas, vulnerabilidades y riesgos de la información.
+Para cada amenaza identificada, determinar su probabilidad e impacto (por ejemplo, baja, media, alta).
+Clasificarlas en naturales, causa humana o falla de infraestructura.
+Identificar controles para mitigar riesgos y el costo de llevarlos a cabo.
+El plan de recuperación es una guía con pasos e información para recuperarse luego de un incidente:
+
+Identificar que eventos desencadenaran el plan.
+Equipo responsable de la atención del incidente.
+Plan de recuperación de incidente (pasos a seguir para recuperarse de un incidente específico). Éste debe incluir:
+Inventario de la infraestructura vital
+Manual de procedimientos para recuperación.
+Operaciones manuales a realizar, que permiten operar mientras se recupera la infraestructura.
+Lista de contactos (en caso de que se necesite ayuda externa o toma de desiciones).
+Finalmente, se debe probar y actualizar toda esta documentación, esto implica:
+
+Probar la efectividad de los planes periódicamente.
+Entrenar al personal en la utilización de los manuales.
+Actualización constante.

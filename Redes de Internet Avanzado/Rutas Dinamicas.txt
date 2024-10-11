@@ -1,0 +1,17 @@
+Rutas dinámicas: cuando los enrutadores aprenden por sí mismos
+
+Se utilizan cuando es necesario que los enrutadores "aprendan por si mismos".
+
+Esto quiere decir que, además de la información que obtienen de las redes directamente conectadas a él, son capaces de transmitir esa información a sus enrutadores vecinos, y a su vez, éstos le brindan actualizaciones que permiten conocer otros ámbitos.* - Rutas Dinámicas • Pueden cambiar con frecuencias, los equipos activos utilizan la información a su alrededor para completarlas. • Facilitan la administración ya que se actualizan por sí mismas. - ¿Cómo lograr que los enrutadores aprenda unos de otros? A través de protocolos de enrutamiento, los cuales construyen las rutas creando un mapa de una topología. Existen diferentes protocolos de enrutamiento, según el tipo de direccionamiento que usamos (IPv4 ó IPv6)
+
+Protocolos de enrutamiento
+
+RIP Protocolo IGP vector-distancia para IPv4 que enruta paquetes IPv4 y muestra su tabla de enrutamiento a los vecinos
+
+RIPng Protocolo IGP vector-distancia para IPv6 que enruta paquetes IPv6 y mantiene una tabla de enrutamiento
+
+OSPF Protocolo IGP de estado de vínculo IPv4 para el enrutamiento de paquetes y las redes de gran disponibilidad.
+
+BGP Protocolo de portal exterior (EGP) IPv4 e IPv6 para el enrutamiento en dominios administrativos
+
+IS-IS Protocolo IGP de estado de enlace IPv4 e IPv6 para el enrutamiento dentro de una red o un dominio administrativo

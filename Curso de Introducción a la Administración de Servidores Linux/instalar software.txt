@@ -1,0 +1,35 @@
+En Linux, es común instalar software desde la línea de comandos utilizando el manejador de paquetes de la distribución que estés utilizando. El proceso para instalar un paquete es bastante sencillo y se realiza en unos pocos pasos:
+
+Actualiza la lista de paquetes disponibles en los repositorios utilizando el siguiente comando:
+
+En distribuciones basadas en Debian, como Ubuntu o Linux Mint, utiliza:
+
+sudo apt update
+
+En distribuciones basadas en Red Hat, como Fedora o CentOS, utiliza:
+
+sudo dnf update
+
+Busca el paquete que quieres instalar utilizando el comando de búsqueda correspondiente:
+
+En distribuciones basadas en Debian, utiliza:
+
+apt search <nombre_del_paquete>
+
+En distribuciones basadas en Red Hat, utiliza:
+
+dnf search <nombre_del_paquete>
+
+Una vez que encuentres el paquete que quieres instalar, utiliza el comando correspondiente para instalarlo:
+
+En distribuciones basadas en Debian, utiliza:
+
+sudo apt install <nombre_del_paquete>
+
+En distribuciones basadas en Red Hat, utiliza:
+
+sudo dnf install <nombre_del_paquete>
+
+Espera a que se complete la instalación del paquete. En algunos casos, se te pedirá que confirmes la instalación o que ingreses tu contraseña de administrador.
+
+Y eso es todo, ahora deberías tener el paquete instalado en tu sistema Linux y listo para ser utilizado. Ten en cuenta que, dependiendo del paquete que estés instalando, es posible que necesites reiniciar ciertos servicios o aplicaciones para que los cambios tengan efecto.

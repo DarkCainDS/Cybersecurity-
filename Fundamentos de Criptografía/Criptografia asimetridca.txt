@@ -1,0 +1,24 @@
+<u>La aritmética modular</u> juega un papel fundamental en la criptografía asimétrica, también conocida como criptografía de clave pública. En este tipo de criptografía, se utilizan dos claves diferentes: una pública que puede ser compartida con cualquier persona y una privada que se mantiene en secreto. La seguridad de estos sistemas se basa en la dificultad de factorizar números grandes y en las propiedades de las operaciones matemáticas modulares.
+
+Conceptos clave:
+
+Módulo: Un número entero positivo (por ejemplo, 101) que define el rango de las operaciones matemáticas modulares.
+Residuo: El resultado de la operación módulo. Por ejemplo, 15 módulo 4 es 3 porque 15 dividido por 4 da un cociente de 3 y un residuo de 3.
+Exponenciación modular: Elevar un número a una potencia y luego calcular el residuo de la operación módulo. Se representa como a^b mod m.
+Función Euler: Determina la cantidad de números enterores positivos menores que un número entero n y coprimos con él. Se representa como φ(n).
+Aplicaciones en criptografía asimétrica:
+
+Algoritmo RSA: El algoritmo de criptografía asimétrica más conocido se basa en la dificultad de factorizar grandes números enteros compuestos (producto de dos números primos grandes). La clave pública se genera a partir de estos dos números primos (n) y la función Euler (φ(n)). La clave privada se calcula utilizando la inversa modular de la función Euler módulo n.
+Criptografía de curva elíptica: Este tipo de criptografía utiliza las propiedades de las curvas elípticas para definir las operaciones matemáticas modulares. Las claves pública y privada se derivan de puntos específicos en la curva elíptica.
+Ventajas de la aritmética modular en criptografía asimétrica:
+
+Seguridad: Las operaciones matemáticas modulares son computacionalmente difíciles de revertir, especialmente cuando se utilizan números grandes. Esto dificulta que un atacante rompa el cifrado y obtenga el mensaje original.
+Eficiencia: Los cálculos modulares son relativamente eficientes, lo que permite implementar criptografía asimétrica en una amplia gama de dispositivos.
+Ejemplos de uso:
+
+Firmas digitales: La aritmética modular se utiliza para crear firmas digitales que garantizan la autenticidad e integridad de un mensaje o documento.
+Comunicación segura: Los protocolos como HTTPS utilizan criptografía asimétrica para establecer canales de comunicación seguros entre un cliente y un servidor web.
+Autenticación de usuarios: Algunos sistemas de autenticación utilizan criptografía asimétrica para verificar la identidad de los usuarios.
+Es importante destacar que la aritmética modular es solo una de las herramientas matemáticas que se utilizan en la criptografía asimétrica. La seguridad de estos sistemas también depende de la elección de parámetros adecuados y de la implementación correcta de los algoritmos.
+
+Si te interesa profundizar en el tema, te recomiendo buscar recursos sobre criptografía asimétrica, aritmética modular y algoritmos específicos como RSA y criptografía de curva elíptica.

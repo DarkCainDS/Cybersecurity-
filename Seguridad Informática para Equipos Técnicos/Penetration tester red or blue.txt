@@ -1,0 +1,19 @@
+Penetration Testers (Red and Blue Team)
+Es el encargado de auditar el estado de la ciberseguridad, simulando ataques (dirigidos, organizados y siguiendo metodologías) para probar la efectividad de los controles de seguridad. Puede ser interno o externo a la organización. Sus responsabilidades son:
+
+Reportar vulnerabilidades o fallas detectados, informando su gravedad y riesgos, y sugiere soluciones.
+Proponer soluciones y controles, incluso si se está fuera de la organización.
+Existen diferentes metodologías para realizar la auditoría, pero por lo general se pueden resumir en:
+
+Acuerdo para auditar: solicitar permisos y firmar un NDA.
+Inteligencia: Capturar información para conocer la organización y sus objetivos.
+Modelar la amenaza: Diseñar cómo se va a auditar.
+Analizar las vulnerabilidades: Identificar las tecnologías usadas en los puntos críticos.
+Explotación: Ejecutar el ataque.
+Post-exploitation: Intentar realizar movimientos laterales para acceder a más recursos.
+Reportar: Entregar un reporte ejecutivo y técnico con las vulnerabilidades encontradas.
+También existen diferentes tipos de pentesting:
+
+Blackbox (caja negra): El auditor no posee acceso ni detalles del objetivo, solo conoce URLs o IPs públicas.
+Graybox (caja blanca): El auditor sí tiene acceso a la red interna para una mejor exploración.
+Whitebox (caja gris): El auditor tiene acceso sólo a una parte de la red interna .

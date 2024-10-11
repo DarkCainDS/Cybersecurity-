@@ -1,0 +1,5 @@
+¿Cuáles son las principales funciones de las capas de Acceso, Distribución y Core? Las principales funciones son: Acceso: Proveer puntos de acceso y conexión directa de los usuarios a la red. Distribución: Agrega capas o etiquetas de acceso y provee conectividad de servicios. Core: Provee conectividad entre capas de distribución en redes extensas.
+
+¿Por qué usar un modelo jerárquico de diseño? Se utiliza el modelo jerárquico para simplificar el diseño en grupos o capas más pequeñas, al realizar el modelo en capas permite implementar o asignar funciones específicas a cada capa, lo cual simplifica el diseño y mejora el rendimiento de la red.
+
+¿Qué dice la guía sobre la redundancia? La redundancia es importante, a nivel de fuentes de poder de equipos, módulos y conexiones que garanticen la estabilidad y operatividad de los servicios.

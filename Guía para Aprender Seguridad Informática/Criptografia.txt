@@ -1,0 +1,8 @@
+Características de la criptografía: 🔋 Capacidad: Cantidad de bits incrustrados. 💪 Robustez: Cuántos ataques puede soportar un algoritmo sin que se modifique la marca de agua o la marca incrustrada. 🕵🏽‍♂️ Imperceptibilidad: Si inserto nuevos datos en el archivo cifrado, ¿qué tanto se afectarán? 🔒 Seguridad: ¿Qué tan seguros son los algoritmos usados para cifrar la información?
+
+
+------------------------------------------------
+
+La criptología es la ciencia de generar y descifrar códigos secretos (cifrar datos, encontrar el mensaje oculto).
+
+La esteganografía oculta datos (el mensaje) en otro archivo, como un archivo de texto gráfico, de audio u otro archivo de texto (ejemplo: ocultar un mensaje en una imagen).

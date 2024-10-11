@@ -1,0 +1,55 @@
+¿Qué son los datos?
+Un dato es una representación simbólica de un atributo o variable cuantitativa o cualitativa.
+
+¿Qué es la información?
+Un dato por si mismo no constituye información, es el procesamiento de los datos lo que nos proporciona información.
+
+¿Qué es la inteligencia?
+La inteligencia es el proceso de análisis de la información para la toma de decisiones.
+
+Disciplinas de Inteligencia
+
+HUMINT (Human Intelligence)
+MASINT (Measurement And Signature Intelligence)
+GEOINT (Unique Geospatial Intelligence)
+IMINT (Imagery Intelligence)
+OSINT (Open Source Intelligence)
+TECHINT (Technical Intelligence)
+
+
+-------------
+
+Ciclo de inteligencia utilizado por la CIA.
+
+Planeación: 
+¿Qué conocemos del objetivo?
+
+¿Cuál es el objetivo de la investigación?
+
+¿Qué necesitamos saber para cumplir con el objetivo?
+
+Recolección:
+La información se recolecta pasiva y activamente.
+
+Pasiva (OSINT)
+
+Activa (HUMINT, IMINT)
+
+Procesamiento
+
+Toda la información recolectada es reunida en un reporte de inteligencia detallado.
+
+Análisis:
+Se lleva a cabo un análisis preciso de la información recolectada con el fin de entender cómo se conecta entre sí, tomando en cuenta el objetivo a cumplir.
+
+Diseminación:
+Una vez llevado a cabo el análisis, se explota y se crea un reporte de retroalimentación sobre el mismo reporte.
+
+
+-------------
+
+Incrementar superficie de ataque
+
+Consiste en identificar todos los puntos de acceso a un sistema.
+Validar si existen fugas de información.
+Enumerar subdominios.

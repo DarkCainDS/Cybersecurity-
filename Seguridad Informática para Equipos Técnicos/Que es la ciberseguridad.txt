@@ -1,0 +1,3 @@
+¿Que es la ciberseguridad?
+
+Es un conjunto de buenas practicas para desarrollar personas, directrices, procesos de la cultura organizacional y arquitecturas de IT con el motivo de proteger a la empresa u organizacional de ciberataques. Todo lo anterior esta basado en los ciber riesgos a los que se puede exponer en plataformas donde se provee información sensible.

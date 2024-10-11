@@ -1,0 +1,56 @@
+Gobuster es una herramienta que permite llevar a cabo solicitudes a una aplicación web, realiza una enumeración de directorios que no se encuentras visibles o no se encuentran accesible para los usuarios.
+
+Gobuster en Kali Linux
+Para saber si está instalado Gobuster
+gobuster version o gobuster
+
+Actualizar si no esta en su versión más reciente 💡
+
+Instalación de Gobuster
+sudo apt-get install gobuster
+
+Sintaxis
+gobuster commands -flag
+
+gobuster commands -flag /wordlist domain
+
+Ejemplo
+gobuster dir -t 20 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+
+Dir
+
+este es el modo para enumerar los directorios del sitio web, los directorios con lo que va despues de la diagonal al terminar el nombre del sitio.
+
+Otra herramienta para la enumeración de directorios
+Dirsearch - Web path scanner
+
+Es una herramienta avanzada de línea de comandos diseñada para forzar directorios y archivos en servidores web, también conocida como escáner de rutas web
+
+Dir este es el modo para enumerar los directorios del sitio web, los directorios con lo que va despues de la diagonal al terminar el nombre del sitio. este se usa iniciando la sentencia:
+
+
+gobuster dir -u <IP> -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+Dir Flags*
+
+-c (cookies para usar en el request)
+-x (Extensiones de archivos a buscar {xml,jpg,png,js,etc})
+-H (especificamos el Header)
+-k (saltamos el certificado TLS)
+-n (Omitimos la impresion de los status)
+-P (indicamos un password para una autenticacion basica)
+-s (indicamos los status positivos que queremos)
+-b (indicamos status negativos)
+-U (indicamos un usuario para una autenticacion basica)
+DNS mode este modo permite a gobuster hacer brute-force a subdominio, esto es bueno por que no porque algo este arreglado sobre el dominio main, quiere decir que esta arreglado en algun otro dominio.
+
+
+gobuster dns -d <IP> -w /usr/share/wordlists/SecLists/Discovery/DNS/subdomains-top1million-5000.txt
+DNS Flags
+
+-c (muestra el CNAME)
+-i (Muestra las ip)
+-r (es para usar un custom DNS)
+vhost mode basicamente nos permite hacer brute-force a host virtuales, lo que son diferentes websites en otros entornos, a veces se confunden por subdominios, pero recordemos que estos son basados en IP por lo que se ejecutan en el mismo servidor.
+
+
+gobuster vhost -u <IP> -w /usr/share/wordlists/SecLists/Discovery/DNS/subdomains-top1million-5000.txt

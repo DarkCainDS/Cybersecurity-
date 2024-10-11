@@ -1,0 +1,44 @@
+
+Cryptoanálisis y Seguridad de Cifrado
+Principio de Kerckhoff´s
+
+“un criptosistema debe de seguir siendo seguro incluso si todo, excepto la llave, es de conocimiento publico”
+
+Modelos de Ataque
+
+. Requerimientos para los criptógrafos que diseñan algoritmos
+
+. Guía a los usuarios para garantizar la efectividad de un algoritmo.
+
+Algunos ejemplos
+
+. Ciphertext-Only Attack (COA)
+
+. Known-Plaintext Attack (KPA)
+
+. Chosen-Plaintext Attack (CPA)
+
+. Chosen-Ciphertext Attack (CCA)
+
+.Side-channel Attack 
+
+Criptoanálisis: Es el proceso de encontrar debilidades en algoritmos criptográficos.
+
+Un ejemplo común es el análisis de frecuencia.
+
+Significado en español de términos criptográficos:
+COA:
+
+Certificado de Autoridad de Certificación (Certificate of Authority): Es un documento digital emitido por una Autoridad de Certificación (CA) que valida la identidad de una persona o entidad.
+KPA:
+
+Algoritmo de Acuerdo de Clave (Key Pair Agreement): Es un protocolo criptográfico que permite a dos o más partes generar un par de claves públicas y privadas de forma segura, incluso si no comparten un canal de comunicación seguro.
+CPA:
+
+Ataque de Texto Claro Elegido (Chosen Plaintext Attack): Es un tipo de ataque criptográfico en el que el atacante puede elegir el texto claro que desea cifrar y observar el texto cifrado correspondiente. Esta información puede ser utilizada para debilitar la seguridad del sistema criptográfico.
+CCA:
+
+Ataque de Texto Cifrado Elegido (Chosen Ciphertext Attack): Es un tipo de ataque criptográfico similar al CPA, pero en este caso el atacante puede elegir el texto cifrado que desea descifrar y observar el texto claro correspondiente.
+Ataque de Canal Lateral (Side Channel Attack):
+
+Es un tipo de ataque criptográfico que explota información adicional, como el tiempo de ejecución del algoritmo o el consumo de energía, para obtener información sobre la clave o el mensaje original. Esta información puede ser utilizada para debilitar la seguridad del sistema criptográfico.

@@ -1,0 +1,5 @@
+https://www.ettercap-project.org/
+keepass pasword safe
+ossec
+suricata
+snort

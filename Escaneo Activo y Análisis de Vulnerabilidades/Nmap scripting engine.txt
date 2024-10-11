@@ -1,0 +1,10 @@
+nmap -p22 --script ssh-brute.nse --script-args userdb=<user/file>,passdb=<passLIst> <IP>
+
+nmap -script=smb-brute <IP>
+nmap -script=smb-enum-users <IP>
+nmap -Pn -n -vv --script banner <IP>
+nmap -Pn -n -vv --script malware <IP>
+nmap -Pn -n -vv --script vuln <IP>
+
+
+https://nmap.org/nsedoc/scripts/

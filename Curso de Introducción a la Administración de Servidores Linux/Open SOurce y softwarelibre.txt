@@ -1,0 +1,20 @@
+Breve historia del software libre y el Open Source
+GNU
+Surge en 1983 para competir con Unix, luego de que Richard Stallman sufriera un ataque de ira cuando no pudo modificar el software de una impresora que fallaba al recibir múltiples peticiones,. Esto debido a que solo estaba precompilado. Por lo que desarrolla su propio sistema operativo.
+
+En 1985, Richard Stallman crea la Free Software Foundation.
+
+Establece 4 libertades que debe tener un software libre.
+Libertad de ejecutar el programa.
+Libertad de estudiar el funcionamiento y modificarlo.
+Libertad de redistribuir.
+Libertad de redistribuir copias de versiones modificadas a otras personas.
+¿Cómo se desarrolla el software?
+¿Cómo abordarse de manera legal?
+Más adelante, en 1990, Linux Torvalds, comparte un post indicando que estaba trabajando en un Kernel similar a Unix.
+
+¿Y cuándo llega el Open Source?
+En 1990, en paralelo al desarrollo de Linux, nace la Open Source Initiative, que busca que el software se pueda conocer en su código fuente y hasta modificar, pero no redistribuir.
+
+¿Pero y las diferencias?
+La principal diferencia entre el software libre y el open source radica en su filosofía subyacente. El software libre se enfoca en las libertades del usuario, mientras que el open source se enfoca en los beneficios prácticos de la colaboración y el desarrollo de software transparente. Sin embargo, ambos enfoques comparten una filosofía de transparencia y accesibilidad del software.

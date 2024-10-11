@@ -1,0 +1,15 @@
+RSA (Rivest–Shamir–Adleman) es un algoritmo de criptografía asimétrica ampliamente utilizado para el cifrado y la firma digital. Se basa en la dificultad de factorizar números enteros grandes.
+
+Firma digital con RSA:
+
+La firma digital permite garantizar la autenticidad e integridad de un mensaje o documento. En el caso de RSA, el proceso funciona de la siguiente manera:
+
+Generación de claves:
+Se generan un par de claves, una clave privada d y una clave pública e. La clave privada se mantiene en secreto, mientras que la clave pública se distribuye.
+Creación del hash:
+Se calcula un hash criptográfico del mensaje que se desea firmar. El hash es un resumen digital del mensaje que permite verificar su integridad.
+Firma:
+El hash se cifra con la clave privada d para generar la firma digital.
+Verificación:
+El receptor del mensaje utiliza la clave pública e para descifrar la firma digital.
+Si el valor descifrado coincide con el hash calculado del mensaje original, se verifica la autenticidad e integridad del mensaje.

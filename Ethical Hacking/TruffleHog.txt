@@ -1,0 +1,29 @@
+La herramienta Trufflehog se encuentra en github.com/dxa4481/trufflehog Trufflehog se basa en la entropía del documento. En un documento hay diferentes combinaciones de letras, pero trufflehog encuentra los patrones que NO SON COMUNES, que tienen mayor nivel de aleatoriedad o inusuales, en este caso en un repositorio tipo github.
+
+En Kali es necesario abrir una consola y escribir los siguiente:
+
+pip install trufflehog
+
+Una vez descargada la herramienta empezamos a trabajar.
+
+Si queremos encontrar un password para un archivo zip determninado, descargamos el archivo y desde consola nos ubicamos en carpeta y tratamos de descomprimir:
+
+`# cd Downloads
+
+¬/Downloads# unzip <nombre del archivo>`
+
+Va a pedir contraseña.
+
+Para obtenerla vamos a analizar la dirección objetivo. Limpiamos con comando
+
+clear
+
+y ponemos:
+
+trufflehog <repositorio>
+
+Ej. utilizado
+
+trufflehog https://git.kringlecastle.com/Upatree/santas_castle_automation
+
+Entre los resultados menciona en color verde las entropias, es decir casos posibles singulares poco usuales. Allí se ve un texto que dice que cambiaron de contraseña y la mencionan.

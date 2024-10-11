@@ -1,0 +1,27 @@
+Creación de LVM sobre RAID1
+Instalamos el paquete:
+
+
+apt install lvm2
+Creamos primero el PV (Physical Volume) que alojará el LV (Logical Volume):
+
+
+pvcreate /dev/md0
+Validamos que se haya creado el PV con el siguiente comando:
+
+
+pvdisplay
+Creamos ahora nuestro grupo de volúmenes (VG):
+
+
+vgcreate volumegroup /dev/md0
+Validamos que se haya creado el VG con el siguiente comando:
+
+
+vgdisplay
+Finalmente, crearemos las particiones más pequeñas:
+
+
+lvcreate --name newname1 --size 1Gb volumegroupname1
+lvcreate --name newname2 --size 1Gb volumegroupname2
+lvdisplay

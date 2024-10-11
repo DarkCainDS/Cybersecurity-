@@ -1,0 +1,9 @@
+Sintaxis de configuración de una ruta estática es la siguiente:
+
+Router(config)#ip route[red][máscara][dirección ip/interfaz]
+
+Entraremos en el Router 1 , en el CLI , y hemos de introducir los siguientes comandos cisco:
+
+1 Router&gt;enable 2 Router#configure terminal 3 Enter configuration commands, one per line. End with CNTL/Z. 4 Router(config)#ip route 192.168.3.0 255.255.255.0 192.168.2.20
+
+Lo que hemos hecho es decirle al Router 1 que puede encontrar la red 192.168.3.0 , con mascara 255.255.255.0, a traves del siguiente salto que es la ip 192.168.2.20.

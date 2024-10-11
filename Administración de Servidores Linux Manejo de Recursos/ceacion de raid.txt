@@ -1,0 +1,38 @@
+Creación de un sistema RAID 1
+Añadimos 2 discos físicos en nuestro VirtualBox, las cuales deben ser del mismo tamaño.
+
+Iniciamos nuestra máquina virtual.
+
+Creamos las particiones virtuales con los comandos:
+
+
+fdisk /dev/sdb
+n → crea partición
+p → crea partición primaria
+Elegimos el primer sector para guardar nuestra partición.
+Elegimos qué tamaño deseamos para la partición: +3G
+p → Nos muestra tabla de particiones.
+t → cambia el tamaño de las particiones.
+w → Guardar los cambios (cuidado, una vez hecho, no hay vuelta atrás).
+Repetimos el proceso para el segundo disco.
+
+Validamos la creación con:
+
+
+lsblk
+Creamos nuestro arreglo RAID con una herramienta de instalación de medios, que deberemos instalar:
+
+
+apt install mdadm
+luego, ejecutamos el programa para crear el volumen lógico:
+
+
+mdadm --create /dev/md0 --level=1 --raid-devices=2 /dev/sd{c,d}
+Validamos la creación con:
+
+
+lsblk
+Para mayor información debemos ingresar el siguiente comando:
+
+
+mdadm --misc --detail /dev/md0

@@ -1,0 +1,21 @@
+Infraestructura de llave pública (PKI)
+
+
+Public Key Infraestructure: Es un criptosistema que define roles, políticas y procedimientos para distribuir y revocar certificados firmados usando criptografía asimétrica.
+
+Componentes
+
+Autoridad Certificadora (CA)
+Autoridad Registradora (RA)
+Autoridad Validadora (VA)
+Sellos de Tiempo
+Repositorios con Información Adicional
+TLS Es un protocolo criptográfico para el intercambio seguro de datos en internet. Utiliza una infraestructura de clave publica para establecer confianza en la comunicación.
+
+PKCS: Es un grupo de estándares de criptografía asimétrica alrededor del algoritmo RSA. Ampliamente usado en varias organizaciones.
+
+
+
+¿ Qué es PKCS #11 ? Los Estándares de criptografía de clave pública (PKCS) comprenden un grupo de estándares criptográficos que proporcionan pautas e interfaces de programación de aplicaciones (API) para el uso de métodos criptográficos.
+
+PKCS #11 es un estándar de interfaz de token criptográfico, que especifica una API, llamada Cryptoki . Con esta API, las aplicaciones pueden abordar dispositivos criptográficos como tokens y pueden realizar funciones criptográficas implementadas por estos tokens.

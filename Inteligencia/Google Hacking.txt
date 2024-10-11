@@ -1,0 +1,11 @@
+Comandos y significados.
+inurl: Buscar algo en el URL.
+site: Indicar algo en un sitio web.
+intext: Buscar en el texto de un sitio web
+intitle: Buscar por título.
+**ext: **Buscar un archivo por su extensión.
+filetype: Buscar por tipo de archivo.
+**+: **Incluir archivos.
+**- : **Excluir archivos.
+
+// Buscar en Google Webcam dorks

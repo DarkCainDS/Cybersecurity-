@@ -1,0 +1,10 @@
+https://linuxopsys.com/linux-fstab-options
+https://www.geeksforgeeks.org/linux-file-hierarchy-structure/
+https://blog.desdelinux.net/que-es-devnull-y-como-puede-ayudarte/
+https://cbtnuggets.com/blog/certifications/open-source/linux-hard-links-versus-soft-links-explained
+https://www.techrepublic.com/topic/virtualization/
+
+https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/8/html/configuring_basic_system_settings/managing-software-packages_configuring-basic-system-settings
+
+https://itsfoss.com/
+https://crontab.guru/every-2-minutes

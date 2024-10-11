@@ -1,0 +1,13 @@
+VPN (Virtual Private Network)
+Es una tecnología que permite conectar dos o más redes de forma segura a través de Internet (el cual es un medio público e inseguro), pero que aún se comporte como si estuvieran conectadas de forma directa. Además, toda la información que fluya a través de ella será cifrada.
+
+Beneficios de utilizar una VPN:
+
+Utilizar recursos de la red interna desde cualquier lugar.
+Cifrar la información que fluye a través de Internet.
+Ocultar la identidad (dirección IP) a los sitios web que se visitan.
+Soluciones de VPN:
+
+Servidor empresarial (on-premise): Se instala un servidor VPN en la red de la empresa, y se configura para que los usuarios puedan conectarse a él desde cualquier lugar.
+VPN as a service (Cloud): Similar al anterior, pero se contrata un servicio en la nube.
+VPN comerciales: Orientadas a usuarios finales, se pueden configurar en varios dispositivos y generalmente son usadas para acceder a contenido bloqueados según la ubicación.

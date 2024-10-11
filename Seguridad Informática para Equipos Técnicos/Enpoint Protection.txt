@@ -1,0 +1,16 @@
+Endpoint protection
+Es una práctica o sistema que permite proteger los dispositivos de la red de la empresa, va mas allá que un simple antivirus ya que integra varias herramientas al mismo tiempo.
+
+Su funcionamiento se basa en la existencia de un servidor llamado EPP (Endpoint Protection Platform) que posee el software necesario para monitorear los dispositivos. Cada dispositivo a monitorear debe contar con un cliente que se encargará de enviar información al servidor y recibir instrucciones.
+
+Los antivirus tradicionales solo detectan y eliminan virus al compararlos con una base de datos de virus conocidos, mientras que los sistemas de endpoint protection proveen:
+
+Clasificación con Machine Learning: Permite detectar nuevos virus que no están en la base de datos.
+Protección avanzada de múltiples dispositivos
+Protección de navegación web: Bloquea sitios web maliciosos, cookies, rastreadores, etc.
+DLP
+Firewall integrado: Bloquea conexiones entrantes no deseadas.
+Bloqueo de phishing y ataques por correo
+Protección de amenazas internas: Detecta comportamientos anómalos en los dispositivos de la red y los bloquea antes de que otros puedan ser afectados.
+Vista centralizada de todos los dispositivos: Permite ver el estado de todos los dispositivos y realizar acciones.
+Cifrado de datos

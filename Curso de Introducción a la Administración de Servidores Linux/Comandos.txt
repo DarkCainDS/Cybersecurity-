@@ -1,0 +1,12 @@
+cd / = va hacia el root
+free -h muestra la mem y memSwap
+df -h = muestra la memoria
+sudo fallocate -l 2g /swapfile =manejar el swap
+sudo mkswap /swapfile = set swapspace and info
+sudo cp /etc/fstab /etc/fstab.bak  = make backup
+less filename.txt = dejar proceso activo   + & proceso en background inmediato
+fg 1(n° proceso) = manda al frente o foreground el proceso selecionado
+sudo lsof -i :22 = conexionaes a puerto especifico
+top = procesos que estan en ejecucion
+htop = top mejorado
+sudo passwrd = añadir contrasel

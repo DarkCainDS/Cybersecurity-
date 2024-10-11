@@ -1,0 +1,65 @@
+El Estándar de Cifrado Avanzado (AES) es un cifrado de clave simétrica ampliamente utilizado en todo el mundo para proteger datos. A continuación, te proporcionaré una visión general de AES, su funcionamiento, y su importancia en la criptografía moderna.
+
+¿Qué es AES?
+AES es un cifrado de clave simétrica que fue adoptado como un estándar de cifrado por el gobierno de los Estados Unidos en 2001. Fue desarrollado por dos criptógrafos belgas, Joan Daemen y Vincent Rijmen, y es también conocido como Rijndael.
+
+Características de AES
+Cifrado Simétrico: Utiliza la misma clave para cifrar y descifrar datos.
+Bloques de Datos: Opera en bloques de datos de 128 bits.
+Tamaños de Clave: AES soporta tres tamaños de clave: 128 bits, 192 bits y 256 bits.
+Rondas de Cifrado: Dependiendo del tamaño de la clave, AES realiza un número diferente de rondas de cifrado:
+10 rondas para claves de 128 bits.
+12 rondas para claves de 192 bits.
+14 rondas para claves de 256 bits.
+Estructura de AES
+AES opera en una matriz de 4x4 de bytes conocida como "estado". La cifrado y descifrado se realizan a través de varias rondas, cada una de las cuales incluye una serie de pasos de transformación.
+
+Pasos en Cada Ronda
+SubBytes: Una sustitución de bytes donde cada byte en la matriz de estado es reemplazado por otro byte según una tabla de sustitución (S-box).
+ShiftRows: Una permutación de filas donde cada fila de la matriz de estado se desplaza cíclicamente un número determinado de veces.
+MixColumns: Una operación de mezcla de columnas que toma cuatro bytes de cada columna y los combina usando una transformación matemática.
+AddRoundKey: Cada byte de la matriz de estado se combina con una subclave de la clave de cifrado utilizando una operación XOR.
+La primera y última ronda del cifrado difieren ligeramente. La primera ronda omite el paso MixColumns, y la última ronda omite los pasos de MixColumns y AddRoundKey.
+
+Ventajas de AES
+Seguridad: Considerado extremadamente seguro. Hasta la fecha, no se ha encontrado ninguna vulnerabilidad significativa en AES que permita romper el cifrado sin un esfuerzo computacional impracticable.
+Velocidad: Es eficiente tanto en hardware como en software, lo que lo hace adecuado para una amplia gama de aplicaciones.
+Estándar Global: Amplia adopción y reconocimiento internacional, lo que garantiza su compatibilidad y soporte en numerosas plataformas y aplicaciones.
+Usos Comunes de AES
+Cifrado de Datos: Utilizado para cifrar datos en reposo y en tránsito en diversas aplicaciones, incluidas comunicaciones seguras, almacenamiento de datos y más.
+VPNs y Redes Seguras: Utilizado en túneles VPN y otras tecnologías de redes seguras para proteger la confidencialidad y la integridad de los datos transmitidos.
+Aplicaciones Web y Móviles: Implementado en aplicaciones para proteger datos sensibles, como credenciales de usuario y otra información privada.
+Dispositivos de Hardware: Integrado en dispositivos de hardware, como discos duros cifrados y dispositivos de almacenamiento USB.
+Ejemplo de Uso de AES en Python
+Aquí tienes un ejemplo básico de cómo usar AES en Python utilizando la biblioteca PyCryptodome:
+
+python
+Copy code
+from Crypto.Cipher import AES
+from Crypto.Random import get_random_bytes
+
+# Generar una clave aleatoria de 16 bytes (128 bits)
+key = get_random_bytes(16)
+
+# Crear un nuevo cifrador AES
+cipher = AES.new(key, AES.MODE_EAX)
+
+# Datos a cifrar
+data = b"Datos secretos"
+
+# Cifrar los datos
+nonce = cipher.nonce
+ciphertext, tag = cipher.encrypt_and_digest(data)
+
+print("Clave:", key)
+print("Nonce:", nonce)
+print("Ciphertext:", ciphertext)
+print("Tag:", tag)
+
+# Descifrar los datos
+cipher_dec = AES.new(key, AES.MODE_EAX, nonce=nonce)
+plaintext = cipher_dec.decrypt_and_verify(ciphertext, tag)
+
+print("Plaintext:", plaintext)
+Conclusión
+AES es uno de los algoritmos de cifrado más importantes y ampliamente utilizados en la actualidad. Su combinación de seguridad, eficiencia y flexibilidad lo hace adecuado para una amplia gama de aplicaciones de seguridad en la informática moderna.

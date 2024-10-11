@@ -1,0 +1,8 @@
+Un pequeño resumen de la clase ;) Seguridad informática: Se encarga de proteger los activos de informáticos, entre los que se encuentran:
+
+Información.
+Infraestructura.
+Usuarios. VERACODE “Estado de seguridad del software”. Más del 85% de todas las aplicaciones tienen al menos una vulnerabilidad; más del 13% tiene al menos un defecto grave de error. SEGURIDAD DE LA INFORMACIÓN: Preservación de la confidencialidad, integridad y disponibilidad de la información.
+CONFIDENCIALIDAD: Que la información no esté disponible a personas no autorizadas o sin permiso.
+INTEGRIDAD: Que la información sea precisa y completa sin modificaciones.
+DISPONIBILIDAD: Información accesible a usuarios con autorización.

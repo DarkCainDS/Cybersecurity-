@@ -1,0 +1,12 @@
+Man in the middle
+Es un tipo de ataque que consiste en interceptar la comunicación entre dos dispositivos (típicamente el dispositivo del usuario y el servidor), ubicándose en el medio e intentando no ser detectado, con el fin de obtener información sensible de la víctima.
+
+Al interponerse en la comunicación, las peticiones realizadas por el usuario son interceptadas por el atacante pudiendo ver su contenido e incluso modificándola y reenviándola al destino original, Este proceso también se realiza con las respuestas obtenidas.
+
+Existen diferentes variantes de este ataque:
+
+IP Spoofing: El atacante envía peticiones a un servidor haciéndose pasar por la víctima. Para ello, prepara la solicitud y utiliza la dirección IP de ésta para que el servidor no lo detecte.
+
+ARP Spoofing: El atacante intercepta toda la información que se transmite dentro de la red local (por Wi-Fi o Ethernet) entre el dispositivo de la víctima y un router. Para ello, el atacante hace que el dispositivo víctima asocie la IP del router (Gateway) con su propia dirección MAC, luego hace que el router asocie la dirección IP de la víctima también con su propia dirección MAC. De esta forma, toda la información que se envía entre ambos dispositivos es interceptada por el atacante.
+
+DNS Spoofing: El atacante modifica las direcciones IP almacenadas en los servidores DNS, de esta forma, cuando el usuario intenta acceder a una dirección web, el servidor DNS le devuelve una dirección IP falsa controlada por el atacante.

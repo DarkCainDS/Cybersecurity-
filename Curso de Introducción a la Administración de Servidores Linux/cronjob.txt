@@ -1,0 +1,22 @@
+Automatización de procesos con cron job
+Para automatizar procesos con cron job, debemos:
+
+Validar la disponibilidad del demonio de cron con:
+
+systemctl status cron
+Para crear un nuevo cron job escribimos
+
+
+crontab -e
+Elegimos cual editor de archivos manejar
+
+E ingresamos elminuto, la hora, el día del mes, mes, día de la semana y el comando.
+
+Para observar todos los archivos de crontab que existen para todos los usuarios escribimos:
+
+
+ls /var/spool/cron/crontabs
+Ver solo el crontab de tu usuario actual
+
+crontab -l
+

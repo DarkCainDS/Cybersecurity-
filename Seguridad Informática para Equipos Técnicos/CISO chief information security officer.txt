@@ -1,0 +1,7 @@
+CISO (Chief Information Security Officer)
+Es el responsable de la seguridad de la información, y por lo tanto, de la ciberseguridad de la empresa. Es el encargado de:
+
+Generar políticas de seguridad, alineándolas con los procesos.
+Garantizar la privacidad de los datos.
+Auditar los procesos de seguridad, identificando riesgos y vulnerabilidades para mitigarlos.
+Acompañar los procesos de certificación e implementación de frameworks de seguridad.

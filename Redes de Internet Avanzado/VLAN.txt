@@ -1,0 +1,3 @@
+Separación de grupos, el uso de las VLAN
+
+Port Security: En un sólo puerto de la LAN puedo conectar una sola maquina identificada por su dirección MAC. Esto permite garantizar que solamente aquél equipo con dicha MAC pueda conectarse. . VLAN: Permite la segregación de grupos de modo que el tráfico solo circula por los puertos permitidos dentro de dicha VLAN generada a partir de estos grupos.

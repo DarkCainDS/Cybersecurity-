@@ -1,0 +1,20 @@
+Habilitar el modo de configuración de VLAN:
+
+Acceder a la interfaz de línea de comandos (CLI) del switch.
+Utilizar el comando correspondiente para habilitar el modo de configuración de VLAN. Este comando puede variar según el fabricante, por ejemplo "vlan" en Cisco o "configure terminal interface vlan" en algunos modelos HP.
+Crear una VLAN:
+
+Utilizar el comando para crear una VLAN, especificando su identificador (VLAN ID).
+Opcionalmente, puedes asignar un nombre descriptivo a la VLAN para facilitar la identificación.
+Configurar puertos de acceso:
+
+Utilizar el comando para ingresar al modo de configuración de una interfaz específica (puerto) del switch.
+Utilizar el comando para asignar el puerto a una VLAN específica.
+Configurar puertos troncales:
+
+Los puertos troncales transportan tráfico de varias VLANs.
+Se utilizan para conectar switches entre sí y permitir que las VLANs se extiendan por la red.
+La configuración de puertos troncales implica habilitar el modo troncal y especificar las VLANs permitidas en ese enlace.
+Verificar la configuración:
+
+Utilizar comandos para visualizar las VLANs configuradas, sus puertos miembros y el estado general.

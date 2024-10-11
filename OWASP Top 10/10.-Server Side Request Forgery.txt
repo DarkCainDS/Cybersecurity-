@@ -1,0 +1,15 @@
+Cómo Funciona el SSRF
+En un ataque SSRF, el atacante envía una solicitud maliciosa a una aplicación web que, a su vez, causa que el servidor de la aplicación realice una solicitud a un recurso específico ubicado dentro de la propia infraestructura del servidor o en una tercera ubicación (como servicios internos de la red, APIs, o el internet público). Los ataques SSRF generalmente explotan vulnerabilidades en la forma en que la aplicación web procesa las URL suministradas por el usuario.
+
+Ejemplo de Ataque SSRF
+Solicitud Maliciosa: Un atacante envía una solicitud a una aplicación web vulnerable que incluye una URL manipulada.
+Solicitud del Servidor: La aplicación web, sin validar adecuadamente la URL suministrada, realiza una solicitud a la URL especificada por el atacante.
+Acceso a Recursos Restringidos: La URL lleva al servidor a acceder a un recurso interno que debería estar inaccesible desde el exterior, permitiendo al atacante obtener datos sensibles o explotar servicios internos.
+Mitigación del SSRF
+Para mitigar el riesgo de ataques SSRF, las organizaciones pueden adoptar varias medidas, incluyendo:
+
+Validación Rigurosa de Entrada: Asegurar que todas las entradas proporcionadas por el usuario (como URLs) sean validadas rigurosamente para rechazar cualquier solicitud maliciosa.
+Limitación de Solicitudes: Restringir las solicitudes del servidor a un conjunto limitado de destinos confiables para evitar que el servidor acceda a URLs arbitrarias.
+Uso de Listas de Permitidos (Whitelisting): Implementar listas de permitidos para controlar a qué recursos puede acceder el servidor, limitando las solicitudes solo a destinos conocidos y seguros.
+Segregación de la Red: Diseñar la arquitectura de la red de manera que los sistemas críticos estén segregados y no sean accesibles directamente desde aplicaciones web vulnerables a SSRF.
+Monitoreo y Registro de Actividades: Monitorear y registrar todas las solicitudes salientes del servidor para detectar y responder rápidamente a cualquier actividad sospechosa que pueda indicar un ataque SSRF.

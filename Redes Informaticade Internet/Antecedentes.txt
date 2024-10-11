@@ -1,0 +1,17 @@
+Antecedentes de las redes computacionales
+
+"Los humanos tenemos la necesidad de comunicarnos", por eso se crearon los teléfonos, las cartas, se utiliza el arte, etc.
+
+Señales de humo/fuego/luz : Un inicio rudimentario por el cuál se hacían comunicaciones a larga distancia. Era inefectivo.
+
+Servicio postal o correo : Un mensaje más detallado, enviando gracias al buzón y al servicio de un punto a otro. Su mayor defecto era cuando las comunicaciones requerían ser urgentes, como en casos de enfermedad o asuntos diplomáticos, ya que este medio podía demorar días en transmitir un mensaje.
+
+Telégrafo : En sus inicios, al rededor de 1800, era conocido como telégrafo óptico. Tenía aspas de madera cuyas posiciones indicaba una letra o número. Esto evolucionó hasta llegar al telégrafo moderno, el cuál utilizaba el código Morse (que realizaba combinaciones de pulsaciones). Se utilizó principalmente para mensajes cortos, y esto era su problema, a pesar de solucionar la transmisión rápida de mensajes.
+
+Teléfono : Se logra transmitir voz de un punto a otro. Al inicio pocos tenían acceso a esta tecnología pero poco a poco se volvió accesible. Teléfono de disco - Teléfono fijo - Teléfono inalámbrico - Teléfono móvil (1G, 2G, 3G, 4G y pronto 5G)
+
+Radio : Utiliza señales de radio para transmitir, desde un nodo central a varios nodos receptores. A medida que nos alejamos se pierde la comunicación, ya que existe un limitante.
+
+Televisión : Por cable o por antena satelital.
+
+Las señales pueden ser transmitidas por cable o de manera inalámbrica. En USA, ARPA conduce le proyecto ARPANET al rededor de 1973 junto con unas universidades donde crearon protocolos de comunicación para que pudieran comunicarse computadoras de un punto a otro, inicialmente eran 4 nodos. Son antecesores del internet, por eso se dice que "fue la primera versión del internet".

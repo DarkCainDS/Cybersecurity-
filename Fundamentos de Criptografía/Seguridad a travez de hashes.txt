@@ -1,0 +1,10 @@
+Seguridad a través de Hashes
+Hashes:
+
+Cuando se aplica una función de hash, se toma un input y se comprime, la diferencia es que esta compresión no se puede revertir, por eso es diferente a un sistema de encriptación. La función hash va a reducir el tamaño por ejemplo de un archivo a un tamaño fijo y tiene que cumplir con el rpinciío de no permitir una imagen para la solución del hash, tomando el dominio, se aplica la función y se lleva a un rango, como el rango es menor que el dominio no se podria regresar hacia el dominio, esto se conoce como funciones de una sola via y sirve para garantizar la integridad de un archivo.
+
+Un archivo hash tiene la garantia de ser resistente a colisiones lo que quiere decir es que se puede encontrar otra pieza que genere el mismo hash y resistente a preimagenes quiere decir que una vez generado el hash no se puede encontrar el archivo original con este.
+
+Integridad: Una función de hash permite garantizar la integridad de una pieza de información de forma simple. Tambien se le conoce como resumen, ya que entrega una pieza corta que permite identificar el archivo original. 
+
+Hash-Message Authentication Code (HMAC): Es un tipo especial de hash que contiene un codigo de autenticación.

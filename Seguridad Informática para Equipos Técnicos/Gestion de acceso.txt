@@ -1,0 +1,16 @@
+Gestión de accesos
+La gestión de accesos hace referencia ala forma en la que se trata la información que permite a los usuarios autenticarse en los sistemas, tales como contraseñas, claves, tokens, etc.
+
+Tipos de gestión de accesos:
+
+Locales (offline): Las credenciales se almacenan en un archivo local, normalmente protegidas por una contraseña maestra. Para esto se puede usar el software KeePass.
+Servicio web (online): Las credenciales se almacenan en un servido web, de esta forma, se puede acceder a ellas desde cualquier dispositivo. Para esto se puede usar el servicio LastPass.
+Basados en token: Permite la autenticación de los usuarios mediante un dispositivo (token) físico, normalmente un USB.
+Dependiendo del servicio utilizado, pueden obtenerse algunos de los siguientes beneficios:
+
+Uso de contraseñas maestras + token.
+Promueve el fortalecimiento de las contraseñas.
+Repositorios debidamente cifrados.
+Algunos servicios implementan passwordless
+Generador de contraseñas seguras.
+Permiten compartir contraseñas de forma segura entre miembros de un equipo.

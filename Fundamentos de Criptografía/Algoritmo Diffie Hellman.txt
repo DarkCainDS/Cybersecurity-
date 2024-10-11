@@ -1,0 +1,47 @@
+El intercambio de claves Diffie-Hellman (D-H) es un protocolo fundamental que permite a dos partes establecer una clave secreta compartida a través de un canal inseguro, como internet.
+
+Ejemplo de funcionamiento:
+
+Alice y Bob acuerdan un módulo grande p y un generador g.
+Alice elige un secreto aleatorio a y calcula A = g^a mod p.
+Bob elige un secreto aleatorio b y calcula B = g^b mod p.
+Alice envía A a Bob y Bob envía B a Alice.
+Alice calcula K = B^a mod p.
+Bob calcula K = A^b mod p.
+Seguridad:
+
+La seguridad del protocolo D-H se basa en la dificultad de calcular el logaritmo discreto.
+
+Problema del logaritmo discreto:
+
+Dado un módulo p, un generador g y un elemento h en el grupo cíclico Z/pZ, encontrar el entero x tal que g^x = h mod p.
+
+Dificultad:
+
+El problema del logaritmo discreto se considera computacionalmente difícil para módulos grandes. No se conoce un algoritmo eficiente para resolverlo en general.
+
+
+
+def diffie_hellman(p, g, a, b):
+    # Alice's calculation
+    A = pow(g, a, p)
+    # Bob's calculation
+    B = pow(g, b, p)
+    
+    # Alice calculates the shared secret
+    s_alice = pow(B, a, p)
+    # Bob calculates the shared secret
+    s_bob = pow(A, b, p)
+    
+    return s_alice, s_bob
+
+# Ejemplo de uso
+p = 23
+g = 5
+a = 6  # Clave privada de Alice
+b = 15 # Clave privada de Bob
+
+s_alice, s_bob = diffie_hellman(p, g, a, b)
+
+print(f"Clave compartida calculada por Alice: {s_alice}")
+print(f"Clave compartida calculada por Bob: {s_bob}")

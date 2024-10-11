@@ -1,0 +1,94 @@
+ls: listar directorio actual
+
+ls /home: listar un directorio especifico
+
+if config: configuracion de red
+
+ssh username@ip: conexion por ssh
+
+cat /etc/passwd: ver archivo donde estan los usuarios
+
+less /etc/shadow: ver usuarios con su contraseña de forma cifrada
+
+(podemos usar tanto less o cat)
+
+su root: cambiar a usuario admin
+
+pwd: nombre del directorio actual
+
+adduser username: agregar nuevo usuario
+
+whoami: ver usuario actual
+
+id: ver info del usuario (uid,gid,groups)
+
+chfn username: cambiar informacion del usuario
+
+usermod --lock username: bloquear usuario (accesos futuros)
+
+htop: ver todos los procesos actuales (podemos ver los procesos referentes a un usuario) con F9 matamos el proceso por ejemplo los que aparecen con ssh
+
+deluser username: eliminar un usuario (aunque la carpeta en home permanece)
+
+rm -rf /home/username/: eliminar un directorio como la carpeta del usuario
+groups: ver todos mis grupos
+
+getent group sudo: ver usuarios del grupo sudo
+
+groupadd groupname: crear nuevo grupo
+
+groupdel groupname: eliminar grupo
+
+groupmod -n newGroupName oldGroupName: cambiar el nombre de un grupo
+
+usermod -aG groupname username: agregar usuario existente a grupo existente
+
+useradd username -m -g groupname: crear usuario y asignarlo a un grupo, -m crea el directorio personal y -g asigna el usuario a un grupo ya creado
+
+gpaswd -d username groupname: quitar usuario de un grupo
+
+mkdir shared: crear carpeta
+
+ls -la: ver permisos de las carpetas
+
+chgrp groupname  /shared/: asignar carpeta a grupo
+
+chmod 770 /shared/: cambiar permisos, todos los permisos al owner, todos al grupo y denegar acceso a todos los que no pertenezcan al grupo
+
+chmod +s /shared/: asignar permisos especiales, cualquier archivo que creemos dentro del directorio se va a crear con el group owner
+
+less /etc/group | grep username: buscar usuario especifico dentro de los grupos
+
+less /etc/group: listar grupos
+
+ls: listar directorio actual
+
+ls /home: listar un directorio especifico
+
+if config: configuracion de red
+
+ssh username@ip: conexion por ssh
+
+cat /etc/passwd: ver archivo donde estan los usuarios
+
+less /etc/shadow: ver usuarios con su contraseña de forma cifrada (podemos usar tanto less o cat)
+
+su username: cambiarse de usuario
+
+pwd: nombre del directorio actual
+
+adduser username: agregar nuevo usuario
+
+whoami: ver usuario actual
+
+id: ver info del usuario (uid,gid,groups)
+
+chfn username: cambiar informacion del usuario
+
+usermod --lock username: bloquear usuario (accesos futuros)
+
+htop: ver todos los procesos actuales (podemos ver los procesos referentes a un usuario) con F9 matamos el proceso por ejemplo los que aparecen con ssh
+
+deluser username: eliminar un usuario (aunque la carpeta en home permanece)
+
+rm -rf /home/username/: eliminar un directorio como la carpeta del usuario

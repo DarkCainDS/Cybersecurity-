@@ -1,0 +1,8 @@
+Creación de un usuario administrador
+Es tan sencillo como utilizar los mismos comandos aprendidos en las clases pasadas para poder añadirlo al grupo de sudo, así:
+
+Nos logueamos como sudo.
+Añadimos el usuario específico al grupo sudo con:
+
+usermod -aG sudo username
+Y listo, ya hemos añadido nuestro usuario root.

@@ -1,0 +1,8 @@
+https://hunter.io/  :
+
+// Paguina para buscar en emails registrados de empresas para asi buscar vulnerabilidades en base al email.
+// Es "Pay per see" para ver la info, Buscar en la url Direccion de email "Clean" por asi decir.
+
+https://emailrep.io/  :
+
+//Same

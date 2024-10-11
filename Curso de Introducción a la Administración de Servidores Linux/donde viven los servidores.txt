@@ -1,0 +1,9 @@
+Un servidor on-premise es un servidor físico que se encuentra en las instalaciones de una organización, mientras que un servidor en la nube (cloud) es un servidor virtual que se encuentra en un centro de datos remoto
+
+En resumen, los servidores on-premise y en la nube tienen diferentes ventajas y desventajas, y la elección entre ellos dependerá de las necesidades y recursos de cada organización.
+
+Resumen ¿Dónde viven nuestros servidores? On premise Todo el hardware y software del servidor es alojado y mantenido por la organización. Cloud
+
+Publica: son todos los proveedores de servicios que otorgan recursos de hardware y software para montar los servidores, tales como Google cloud, Azure, AWS, entre otros.
+
+Privada: todos los recursos y software pueden vivir en otro lado pero ningun recurso o servicio se comparte con otra empresa para tener un mayor grado de seguridad. Hybrid (Híbrida) Es una combinación de servicios on premise y cloud.

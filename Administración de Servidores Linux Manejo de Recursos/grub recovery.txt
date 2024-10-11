@@ -1,0 +1,13 @@
+Recuperar GRUB
+Cuando nuestro GRUB se desconfigura (que es un evento bastante común), debemos estar en la capacidad de restaurarlo, para ello debemos seguir las siguientes indicaciones:
+
+La carpeta donde se aloja el archivo de configuración es el siguiente: /boot/grub/grub.cfg
+
+Primero, romperemos nuestro grub, de tal manera que podamos repararlo:
+
+
+sudo mv /boot/grub/grub.cfg.bck → Cambia el nombre del archivo original de grub.cfg
+Reiniciamos nuestra máquina virtual con:
+
+
+sudo reboot

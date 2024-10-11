@@ -1,0 +1,22 @@
+Seguridad Informática:
+
+Correo Electrónico como Cartas en Sobres:
+Cuando envías un correo electrónico, es como enviar una carta. La seguridad informática sería como poner la carta dentro de un sobre sellado.
+El sobre protege el contenido de la carta (tu mensaje) para que nadie más pueda leerlo mientras viaja por la red.
+Seguridad Computacional
+
+Contraseña como Llave de Auto:
+Imagina que tu computadora es un auto. La seguridad computacional es como tener una llave para encenderlo.
+Sin la llave (contraseña), nadie más debería poder encender tu auto (acceder a tu computadora).
+
+
+
+Ambas están relacionadas, sólo que idealmente todo sería informáticamente seguro. La diferencia principal está en si se puede romper.
+
+Yo ajustaría la analogía un poco:
+
+Imagine una casa. Si la casa fuera informáticamente segura no existiría ninguna manera de entrar a menos que con una llave. En la práctica, la seguridad tiene limitaciones físicas (qué tan fácil es romper un candado o multiples) que la vuelven segura computacionalmente.
+
+En el caso de one time pad, si la llave es mas grande que el mensaje, entonces para cada posible mensaje existe un cifrado único. Esto hace al one time pad informáticamente seguro porque no existe vínculo entre el cipher y el texto original.
+
+Por el contrario, si la llave es más pequeña, entonces deja de ser posible tener un cipher único para cada mensaje.

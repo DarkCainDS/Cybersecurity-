@@ -1,0 +1,3 @@
+Un** PING **es un comando (herramienta/utilidad) que envia una solicitud (REQUEST) al host destino y el host le responde con un REPLY, Realiza mensajes ICMP: El protocolo de mensajes de control de internet ICMP (Internet Control Message Protocol) es un protocolo de la capa de red (Network Layer) que se utiliza principalmente para detectar errores en la red. Cuando el cliente envía una solicitud es un mensaje ICMP Echo Request y cuando el host destino responde lo hace con un ICMP Echo Reply.
+
+TRACEROUTE es un comando (herramienta) que sirve para realizar un seguimiento a los paquetes enviados a un host destino, mediante las rutas que estos siguen a través del protocolo IP.

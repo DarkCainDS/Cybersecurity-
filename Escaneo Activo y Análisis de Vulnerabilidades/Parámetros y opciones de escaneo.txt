@@ -1,0 +1,43 @@
+En la clase de análisis de dispositivos y puertos con Nmap, se vio que es una herramienta de exploración de redes y seguridad / escáner de puertos.
+
+Parámetros en nmap
+Un escaneo simple, pero sin embargo recolecita información sensible e importante para el análisis de nuevos vectores de ataque.
+
+nmap -sV -O -v -T3 -p <puertos> IP/Mask
+
+Parámetros
+-sV: Versiones de los servicios
+
+-O: Versión del Sistema Operativo
+
+-v: Muestra a detalle lo que hace la herramienta
+
+-T: Permite indicar la intensidad del escaneo
+
+-T0: Paranoico (Muy lento) 🚅
+
+-T1: Sigiloso (Más lento) 🛬
+
+-T2: Sostificado (Lento) 🛫
+
+-T3: Normal ✈️
+
+-T4: Agresivo (Más rápido) 🛩️
+
+-T5: Muy agresivo (Insane) 🚀
+
+-p: Rango de puertos a escanear
+
+Contribución creada con los aportes de: Angie Espinoza (Platzi Contributor).
+
+
+-----------------------------------------
+sudo nmap -p- --open -sS -v -n -Pn -sC -sV -T4  $IP 
+-p- --open: Escanear el rango total de puertos abiertos (que detecte los abiertos)
+-sS: Análisis utilizando TCP SYN
+-v: Mostar cada detalle
+-n: No hacer DNS
+-Pn: No hacer ping
+-sC: Realiza análisis con los scripts por defecto
+-sV: Versiones de los servicios
+T3: Intensidad del escaneo: Agresivo

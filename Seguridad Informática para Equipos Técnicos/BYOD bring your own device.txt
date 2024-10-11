@@ -1,0 +1,10 @@
+BYOD (Bring Your Own Device)
+Es una política que permite a los empleados usar sus propios dispositivos para trabajar, llevándolos a las oficinas y conectándolos a la red interna. Si bien no se tiene control total sobre estos dispositivos, se deben implementar controles para proteger la red y los datos.
+
+Prevenir software pirata: Los activadores de Windows u Office suelen tener malware. Se debe considerar soluciones open source.
+Mantener el software actualizado: Evita que se exploten vulnerabilidades conocidas.
+Evitar uso de redes públicas: Evita ataques de man-in-the-middle. En caso de ser necesario, se debe usar una VPN.
+Cifrado de disco: En caso de pérdida o robo del dispositivo, se evita que un tercero acceda a los datos.
+**DNS:**Cambiar el DNS predeterminado para evitar redirecciones a sitios maliciosos.
+Endpoint Protection: Protección avanzada contra diferentes tipos de amenaza.
+Contraseñas seguras: Evita que terceros accedan a los datos. Se puede usar un gestor de contraseñas para evitar usar la misma en diferentes sitios.

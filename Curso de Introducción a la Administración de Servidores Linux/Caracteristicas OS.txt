@@ -1,0 +1,15 @@
+Resumen de la clase Una distribución de Linux es una variante de Linux creada por una organización o comunidad específica que toma el kernel de Linux y lo combina con otras aplicaciones y herramientas de software para crear un sistema operativo completo. Las distribuciones de Linux pueden variar en características, propósitos y enfoques.
+
+Hay muchas distribuciones de Linux disponibles, y algunas de las más populares son:
+
+++Rolling Release:++
+
+*Arch Linux *Gentoo *Solus *Manjaro *openSUSE Tumbleweed
+
+++Fixed Release:++
+
+*Debian *Ubuntu *CentOS *Fedora *Red Hat Enterprise Linux (RHEL)
+
+Las distribuciones de Rolling Release reciben actualizaciones continuas y no tienen versiones específicas. Las actualizaciones se entregan a medida que se lanzan y se prueban. Las distribuciones de Fixed Release, por otro lado, tienen una versión específica que se lanza en un momento determinado y reciben actualizaciones de seguridad y mantenimiento regulares, pero no se actualizan con nuevas características de forma regular.
+
+Cada distribución de Linux tiene su propia comunidad de usuarios y su propia filosofía y enfoque. La elección de una distribución de Linux depende de las necesidades y preferencias individuales del usuario, como el propósito de la distribución, el nivel de experiencia técnica del usuario y las características específicas que se buscan.

@@ -1,0 +1,116 @@
+Paso a Paso: Cómo Funcionan las Consultas Parametrizadas
+Definición de la Consulta con Marcadores de Posición:
+Primero, defines tu consulta SQL con marcadores de posición en lugar de valores directos. Los marcadores de posición son representados por símbolos como $1, $2, etc., en pg (node-postgres).
+
+sql
+Copy code
+SELECT
+    u.id,
+    u.username,
+    p.bio,
+    p.first_name,
+    p.last_name,
+    p.email,
+    p.phone,
+    p.website,
+    r.role_name
+FROM 
+    users u
+JOIN 
+    profiles p ON u.id = p.user_id
+JOIN 
+    user_roles ur ON u.id = ur.user_id
+JOIN 
+    roles r ON ur.role_id = r.id
+WHERE
+    u.id = $1;
+Provisión de los Valores para los Marcadores de Posición:
+Al ejecutar la consulta, proporcionas un array de valores que se asociarán con los marcadores de posición. Cada elemento del array reemplaza el marcador correspondiente en la consulta. En tu ejemplo, userId es el valor que se usará para $1.
+
+javascript
+Copy code
+const userId = parseInt(req.params.id);
+Ejecución de la Consulta con los Valores Parametrizados:
+Llamas a la función query de la instancia de cliente de la base de datos, pasando la consulta y el array de valores. La biblioteca de pg se encarga de reemplazar los marcadores de posición con los valores del array de manera segura.
+
+javascript
+Copy code
+const user = await db.query(`
+    SELECT
+        u.id,
+        u.username,
+        p.bio,
+        p.first_name,
+        p.last_name,
+        p.email,
+        p.phone,
+        p.website,
+        r.role_name
+    FROM 
+        users u
+    JOIN 
+        profiles p ON u.id = p.user_id
+    JOIN 
+        user_roles ur ON u.id = ur.user_id
+    JOIN 
+        roles r ON ur.role_id = r.id
+    WHERE
+        u.id = $1;
+`, [userId]);
+Ejecución Segura en el Servidor de Base de Datos:
+La biblioteca de pg envía la consulta parametrizada al servidor de la base de datos junto con los valores. El servidor de la base de datos compila la consulta con los parámetros proporcionados, asegurando que los valores se traten como datos y no como código, lo que previene inyecciones SQL.
+
+Ejemplo Completo
+Aquí tienes un ejemplo completo de cómo se ve el código en tu aplicación:
+
+javascript
+Copy code
+const { Client } = require('pg');
+const express = require('express');
+const router = express.Router();
+const dbConfig = { /* Configuración de la base de datos */ };
+
+router.get('/:id', async (req, res) => {
+    const db = new Client(dbConfig);
+    try {
+        await db.connect();
+        const userId = parseInt(req.params.id);  // Obtener el ID del parámetro de la URL y convertirlo a número
+        console.log(`User id: ${userId}`);
+        const user = await db.query(`
+            SELECT
+                u.id,
+                u.username,
+                p.bio,
+                p.first_name,
+                p.last_name,
+                p.email,
+                p.phone,
+                p.website,
+                r.role_name
+            FROM 
+                users u
+            JOIN 
+                profiles p ON u.id = p.user_id
+            JOIN 
+                user_roles ur ON u.id = ur.user_id
+            JOIN 
+                roles r ON ur.role_id = r.id
+            WHERE
+                u.id = $1;
+        `, [userId]);  // Pasar el ID del usuario como parámetro
+
+        res.json(user.rows);  // Enviar los datos del usuario como respuesta JSON
+    } catch (err) {
+        console.error(err);
+        res.status(500).send('Error al obtener los datos del usuario');
+    } finally {
+        await db.end();
+    }
+});
+
+module.exports = router;
+Beneficios de las Consultas Parametrizadas:
+Seguridad: Previenen inyecciones SQL al separar la lógica de la consulta SQL de los datos que se inyectan.
+Reutilización de Consultas: Permiten la reutilización de consultas SQL con diferentes parámetros.
+Claridad y Mantenimiento: Hacen que el código sea más claro y fácil de mantener.
+Si necesitas más detalles o tienes alguna otra pregunta, ¡hazmelo saber!

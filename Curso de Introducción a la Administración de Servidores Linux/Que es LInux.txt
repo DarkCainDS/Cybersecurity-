@@ -1,0 +1,26 @@
+Linux = kernel
+¿Qué es un Sistema Linux/UNIX?
+Linux y UNIX son sistemas operativos de tipo Unix-like (similares a Unix) que comparten una arquitectura y una filosofía común basada en la idea de que "todo es un archivo" (en inglés, "everything is a file"), lo que significa que los dispositivos, servicios y recursos del sistema se presentan y manipulan a través del sistema de archivos.
+
+Están diseñados para ser multiusuario y multitarea, lo que significa que varios usuarios pueden trabajar en el mismo sistema al mismo tiempo y que el sistema puede ejecutar múltiples tareas de forma simultánea. Linux y UNIX son sistemas operativos de código abierto, lo que significa que el código fuente del sistema operativo está disponible para ser modificado y distribuido libremente.
+
+
+Tipos de Sistema *NIX
+Unix: Sistema operativo antiguo, multiusuario y multitarea desarrollado originalmente en los años 60 y 70 en los laboratorios Bell de AT&T. Fue diseñado para ser un sistema portátil y adaptable a diferentes tipos de hardware.
+
+Linux: Sistema operativo libre y gratuito basado en Unix. Fue creado por Linus Torvalds en 1991 y se distribuye bajo licencia GPL (General Public License).
+
+UNIX: Sistema operativo basado en Unix desarrollado por The Open Group, una organización dedicada a la estandarización de tecnologías de software.
+
+Existen otros sistemas operativos similares a Unix, como por ejemplo FreeBSD, OpenBSD, NetBSD y Solaris.
+
+
+Datos
+OS (Sistema Operativo) = Windows, MacOS, GNU/Linux -> GNU/Linux = Linux (Kernel) + GNU (GNU's Not Unix") -> Linux = Distribuciones
+
+Distribuciones para Servidores
+CentOS: Derivada del código fuente de Red Hat Enterprise Linux (RHEL). Es muy estable y está diseñada para ser utilizada en entornos empresariales y de servidores.
+Ubuntu Server: es una versión de Ubuntu diseñada específicamente para su uso en servidores. Ofrece una combinación de facilidad de uso y estabilidad.
+Debian: es una distribución de GNU/Linux muy estable y confiable que es muy popular entre los administradores de sistemas.
+Fedora Server: Impulsada por la comunidad que se enfoca en la innovación y la adopción temprana de nuevas tecnologías.
+Arch Linux: es una distribución muy personalizable y dirigida a usuarios avanzados. Es muy popular entre los administradores de sistemas que prefieren una configuración a medida.

@@ -1,0 +1,11 @@
+Empleos más demandados en 2020:
+
+++Ingeniero en ciberseguridad++.- tener un nivel técnico y de alto nivel para saber qué podemos sugerir para una organización para que esta sea más segura.
+
+++Analista de ciberseguridad++ A nivel de red; Entender el tráfico de red. Ser capaz de detectar posibles ataques y en caso de suceder encontrar el origen de dicho ataque.
+
+++Arquitecto de redes++ Es una persona que a un alto nivel es capaz de proponer la manera de estructura una red para evitar exponer los datos de una empresa
+
+++Consultor de ciberseguridad++ Personas que está actualizada en tendencias de tecnología, cuáles son los ataques vigentes hoy en día. Tiene ese nivel humano para interactuar con personas de una organización y sugerir el camino que deberían tomar para mejorar el nivel en el que están
+
+++Gerente de ciberseguridad++ Persona encargada de todos los temas y todas las estrategias de ciberseguridad

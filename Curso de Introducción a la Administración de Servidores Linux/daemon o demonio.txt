@@ -1,0 +1,7 @@
+Daemon (Demonio)
+En Linux, un demonio (daemon) es un programa que se ejecuta en segundo plano para realizar tareas que no requieren la intervención del usuario o que se deben realizar de forma continua, como la gestión del sistema, el monitoreo de servicios o la automatización de tareas.
+
+Ejemplos comunes:
+Servidores web
+Servidores de bases de datos
+Servicios de correo electrónico.

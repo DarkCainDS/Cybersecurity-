@@ -1,0 +1,56 @@
+Un manejador de paquetes en Linux es un programa que se utiliza para instalar, actualizar, configurar y eliminar paquetes de software en un sistema Linux. Los manejadores de paquetes se encargan de todo el proceso de gestión de paquetes, desde la descarga del software hasta su instalación y eliminación.
+
+Algunos de los manejadores de paquetes más comunes en Linux incluyen:
+
+APT (Advanced Package Tool): utilizado en distribuciones basadas en Debian, como Ubuntu y Linux Mint.
+YUM (Yellowdog Updater Modified): utilizado en distribuciones basadas en Red Hat, como Fedora y CentOS.
+DNF (Dandified YUM): utilizado en distribuciones basadas en Red Hat, como Fedora y CentOS (a partir de CentOS 8).
+Zypper: utilizado en distribuciones basadas en SUSE, como openSUSE y SUSE Linux Enterprise.
+Pacman: utilizado en Arch Linux y distribuciones derivadas de Arch.
+Cada manejador de paquetes tiene su propio conjunto de comandos y opciones para realizar diferentes tareas, como instalar, actualizar o eliminar paquetes de software. Los manejadores de paquetes son una parte fundamental del ecosistema de software de Linux, y permiten a los usuarios gestionar el software de una forma más fácil y segura.
+
+Para usar APT en Ubuntu o Linux Mint, puedes utilizar los siguientes comandos:
+
+Actualizar la lista de paquetes disponibles en los repositorios:
+
+sudo apt update
+
+Instalar un paquete:
+
+sudo apt install <nombre_del_paquete>
+
+Actualizar todos los paquetes instalados en el sistema:
+
+sudo apt upgrade
+
+Eliminar un paquete:
+
+sudo apt remove <nombre_del_paquete>
+
+Buscar un paquete en los repositorios:
+
+apt search <nombre_del_paquete>
+
+Para usar DNF en Fedora o CentOS 8 (o versiones posteriores), puedes utilizar los siguientes comandos:
+
+Actualizar la lista de paquetes disponibles en los repositorios:
+
+sudo dnf update
+
+Instalar un paquete:
+
+sudo dnf install <nombre_del_paquete>
+
+Actualizar todos los paquetes instalados en el sistema:
+
+sudo dnf upgrade
+
+Eliminar un paquete:
+
+sudo dnf remove <nombre_del_paquete>
+
+Buscar un paquete en los repositorios:
+
+sudo dnf search <nombre_del_paquete>
+
+Ambos manejadores de paquetes tienen muchas más opciones y comandos disponibles, pero estos son algunos de los más comunes y útiles para empezar a trabajar con ellos.

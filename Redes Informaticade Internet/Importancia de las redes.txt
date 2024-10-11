@@ -1,0 +1,9 @@
+¿Por qué son importantes las redes de datos? Hoy en día las utilizamos más que nunca para estar conectados y se puede ver su uso en los siguientes escenarios:
+
+Militar, sistemas gubernamentales y diversas instituciones: En este tipo de instituciones se maneja información confidencial que hay que cuidar, por lo tanto, las redes que manejan en estas instituciones son mas robustas que las que manejas en tu casa.
+
+Hogar: se tiene solo un dispositivo para conectarte a internet de alguna manera o a través de los datos de tu celular y la protección es relativamente baja, por lo regular ninguna cuenta con un firewall que le ayude a las personas a proteger sus datos
+
+Centros de datos: son lugares donde se almacenan grandes cantidades de datos que son relevantes y es importante que esta información tenga alta disponibilidad, que sea guardada de forma segura para que solo puedan tener acceso a ella las personas autorizadas.
+
+Escuelas y oficinas: Hoy en día es muy raro ver que no hagan uso de las redes y el internet, quizas en las escuelas primarias aun no se ha masificado su uso. En las oficinas de trabajo está en juego la información sensible de la empresa por lo que las redes de estos sitios deben contar con niveles de acceso para los usuarios y determinar el acceso a internet.

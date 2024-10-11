@@ -1,0 +1,5 @@
+Aspectos Clave de las Fallas de Identificación y Autenticación
+Gestión Insegura de Contraseñas: Incluye el almacenamiento inseguro de contraseñas, como la falta de hash adecuado, o el uso de algoritmos de hash débiles y fácilmente vulnerables a ataques de fuerza bruta.
+Autenticación Insuficiente: Falta de mecanismos robustos de autenticación que permitan a los atacantes eludir la autenticación o realizar ataques de reutilización de credenciales, como el secuestro de sesión.
+Implementación Defectuosa de Autenticación de Múltiples Factores (MFA): Una implementación inadecuada de MFA que puede ser eludida o no se aplica de manera uniforme, proporcionando una falsa sensación de seguridad.
+Gestión de Sesión Deficiente: Incluye la creación de tokens de sesión predecibles, no invalidar la sesión después de un logout o después de un período de inactividad, o permitir el uso simultáneo de sesiones, lo que aumenta el riesgo de secuestro de sesión.

@@ -1,0 +1,9 @@
+Beneficios de la segmentación de redes:
+Mayor seguridad: Limita el alcance de un ataque potencial, reduciendo el daño potencial.
+Mejora la disponibilidad: Si una subred se ve comprometida, las demás subredes permanecen operativas.
+Simplifica la gestión: Facilita la administración de permisos y políticas de seguridad.
+Reduce la superficie de ataque: Disminuye la cantidad de puntos de entrada potenciales para los atacantes.
+Mejora el cumplimiento normativo: Ayuda a cumplir con las regulaciones de protección de datos.
+Tipos de segmentación de redes:
+Segmentación física: Se realiza utilizando dispositivos físicos como routers y firewalls.
+Segmentación lógica: Se implementa utilizando tecnologías de virtualización como VLANs y VPNs.

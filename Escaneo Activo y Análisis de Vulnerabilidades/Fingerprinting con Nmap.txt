@@ -1,0 +1,25 @@
+comando para detectarlo en tu red
+
+nmap -O --osscan-guess -sV --version-all "tu rango IP"
+
+(ejemplo 192.168.56.0/24)
+--------------------------------------------------------------------
+La huella digital (Fingerprinting) es el proceso por el que un sitio o servicio remoto recopila pequeños fragmentos de información sobre la máquina de un usuario y los une para formar una imagen única, o "huella digital", del dispositivo del usuario.
+
+¿Cuáles son las formas principales de Fingerprinting?
+Las dos formas principales son: * La huella digital del navegador, donde esta información se entrega a través del navegador cuando un usuario visita sitios remotos. * La huella digital del dispositivo, cuando la información se entrega a través de las aplicaciones que un usuario ha instalado en su dispositivo.
+
+DETECCIÓN DE SISTEMA OPERATIVO:
+-O: Opción para permitir detección del sistema operativo.
+–-osscan-limit: Opción para limitar detección del sistema operativo a objetivos mas “fáciles”
+–-osscan-guess: Intentar adivinar el sistema operativo de manera más agresiva.
+DETECCIÓN DE SERVICIOS/VERSIÓN:
+-sV: Probar puertos abiertos para determinar información de servicios/versión.
+–-version-intensity : Desde 0 (ligero) hasta 9 (probar todas las versiones)
+–-version-light: Limitarse a solo las pruebas de combinaciones mas probables de encontrarse (intensidad 2)
+–-version-all: Probar cada posible combinación (intensidad 9)–version-trace: Mostrar la actividad detallada del proceso de escaneo de versiones.
+Comando para detectar sistema operativo del servidor y servicios ejecutándose en un dominio (Fingerprinting)
+
+sudo nmap -O --osscan-guess -sV --version -all dominio
+
+Contribución creada con los aportes de: Angie Espinoza (Platzi Contributor).

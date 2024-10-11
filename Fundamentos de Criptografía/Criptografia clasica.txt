@@ -1,0 +1,10 @@
+La criptografía clásica abarca una serie de técnicas criptográficas que se desarrollaron antes del auge de la computación moderna. Estas técnicas se caracterizan por su simplicidad matemática y su enfoque manual para el cifrado y descifrado.
+
+Tipos de Criptografía Clásica:
+
+Cifrado por sustitución:
+Cifrado de César: Reemplaza cada letra por otra letra ubicada a una distancia fija en el alfabeto.
+Cifrado de Atbash: Sustituye las letras por su opuesto en el alfabeto.
+Cifrado por transposición:
+Cifrado de columna: Reordena las letras del mensaje en columnas y luego las lee por filas.
+Cifrado de Vigenère: Utiliza una tabla de sustitución basada en una palabra clave.

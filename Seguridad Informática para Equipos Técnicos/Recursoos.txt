@@ -1,0 +1,12 @@
+https://www.nist.gov/cyberframework
+https://www.virustotal.com/gui/home/upload
+https://www.hybrid-analysis.com/
+https://www.nomoreransom.org/en/index.html
+https://www.pcmag.com/picks/the-best-ransomware-protection
+https://www.microsoft.com/en-us/wdsi/support/report-unsafe-site
+https://safebrowsing.google.com/safebrowsing/report_phish/?hl=en
+https://www.cloudflare.com/es-es/ddos/
+https://www.spamhaus.com/threat-map/
+https://www.ssllabs.com/ssltest/
+https://bitwarden.com/
+https://www.itsasap.com/blog/how-to-choose-a-firewall

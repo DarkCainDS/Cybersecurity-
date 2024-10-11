@@ -1,0 +1,19 @@
+https://chrome.google.com/webstore/detail/search-by-image/cnojnbdhbhnkbcieeekonklommdnndci  :
+https://yandex.com/  :
+
+//Sitios para realizar un ataque en base a la localizacion de imagenes, Buscando imagenes similares para asi desifrar el lugar en alguna foto especifica y conocer la ubicacion del objetivo a hackear.
+// Ademas posee un extractor de imagen a texto.
+
+Resumen
+
+Ingresamos al navegador (Chrome o firefox) e instalamos el plugin search by image
+
+Ingresamos a la red social que queramos investigar. En la imagen de perfil damos clic derecho y escogemos la opción de search by image / google
+Google indica en que otros lugares aparece la imagen.
+
+En la imagen de perfil damos clic derecho y escogemos la opción de search by image / yandex
+
+Yandex es más poderoso que google. https://yandex. com/
+• Jandex tiene un sistema de reconocimiento facial y va a buscar imágenes en donde aparezca esa persona.
+• Permite recortar la imagen para hacer una búsqueda mas específica.
+• También permite reconocer texto y traducirlo.

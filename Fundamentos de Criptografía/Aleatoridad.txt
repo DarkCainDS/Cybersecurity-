@@ -1,0 +1,6 @@
+Generadores de números aleatorios (RNGs):
+
+Son algoritmos o dispositivos que producen secuencias de números que parecen aleatorios.
+Pueden ser de dos tipos:
+Verdaderamente aleatorios (TRNGs): Utilizan fuentes físicas impredecibles para generar números aleatorios, como el ruido térmico o la desintegración radiactiva.
+Pseudoaleatorios (PRNGs): Utilizan un algoritmo matemático para generar números que parecen aleatorios a partir de un valor inicial (semilla).

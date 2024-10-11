@@ -1,0 +1,107 @@
+Para instalar Mutillidae en un servidor Ubuntu en una máquina virtual y asegurarte de que funcione correctamente, sigue estos pasos:
+
+Paso 1: Configuración Inicial
+Actualiza el sistema:
+
+bash
+Copy code
+sudo apt update && sudo apt upgrade -y
+Instala Apache, MySQL y PHP (LAMP Stack):
+
+bash
+Copy code
+sudo apt install apache2 mysql-server php php-mysql libapache2-mod-php -y
+Asegura MySQL:
+
+bash
+Copy code
+sudo mysql_secure_installation
+Sigue las instrucciones para establecer una contraseña de root y asegurar la instalación de MySQL.
+
+Paso 2: Descargar y Configurar Mutillidae
+Navega al directorio raíz del servidor web:
+
+bash
+Copy code
+cd /var/www/html
+Descarga Mutillidae:
+
+bash
+Copy code
+sudo apt install git -y
+sudo git clone https://github.com/webpwnized/mutillidae.git
+Renombra el directorio para simplificar el acceso:
+
+bash
+Copy code
+sudo mv mutillidae mutillidae
+Paso 3: Configurar la Base de Datos
+Accede a MySQL:
+
+bash
+Copy code
+sudo mysql -u root -p
+Crea una base de datos y un usuario para Mutillidae:
+
+sql
+Copy code
+CREATE DATABASE mutillidae;
+CREATE USER 'mutillidae_user'@'localhost' IDENTIFIED BY 'password';
+GRANT ALL PRIVILEGES ON mutillidae.* TO 'mutillidae_user'@'localhost';
+FLUSH PRIVILEGES;
+EXIT;
+Importa la estructura de la base de datos de Mutillidae:
+
+bash
+Copy code
+sudo mysql -u mutillidae_user -p mutillidae < /var/www/html/mutillidae/owasp-mutillidae-2.6.75/_mutillidae.sql
+Paso 4: Configurar Apache
+Configura los permisos del directorio de Mutillidae:
+
+bash
+Copy code
+sudo chown -R www-data:www-data /var/www/html/mutillidae
+sudo chmod -R 755 /var/www/html/mutillidae
+Habilita el módulo rewrite y reinicia Apache:
+
+bash
+Copy code
+sudo a2enmod rewrite
+sudo systemctl restart apache2
+Configura Apache para Mutillidae:
+Crea un archivo de configuración para el sitio de Mutillidae:
+
+bash
+Copy code
+sudo nano /etc/apache2/sites-available/mutillidae.conf
+Añade la siguiente configuración:
+
+apache
+Copy code
+<VirtualHost *:80>
+    ServerAdmin webmaster@localhost
+    DocumentRoot /var/www/html/mutillidae
+    ErrorLog ${APACHE_LOG_DIR}/error.log
+    CustomLog ${APACHE_LOG_DIR}/access.log combined
+
+    <Directory /var/www/html/mutillidae>
+        Options Indexes FollowSymLinks
+        AllowOverride All
+        Require all granted
+    </Directory>
+</VirtualHost>
+Habilita el nuevo sitio y deshabilita el sitio por defecto:
+
+bash
+Copy code
+sudo a2ensite mutillidae.conf
+sudo a2dissite 000-default.conf
+sudo systemctl reload apache2
+Paso 5: Finalizar la Instalación
+Accede a Mutillidae:
+Abre un navegador web y ve a http://<IP_DE_TU_VM>/mutillidae.
+
+Completa la configuración en el navegador:
+Sigue las instrucciones en pantalla para completar la configuración de Mutillidae.
+
+¡Listo! Ahora deberías tener Mutillidae funcionando en tu servidor Ubuntu en una VM.

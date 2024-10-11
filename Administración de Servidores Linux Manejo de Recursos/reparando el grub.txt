@@ -1,0 +1,56 @@
+Reparando el archivo grub con chroot
+Para poder reparar el archivo debemos hacer un escalamiento de privilegios a través de chroot, esto aprovechando una vulnerabilidad del sistema de linux. Para esto es importante tener en cuenta que los discos no han sido cifrados.
+
+Iniciamos como si fuéramos a instalar una nueva máquina virtual, pero en la misma máquina de Ubuntu.
+
+Vamos a configuración > Storage >Controller IDE > seleccionamos nuestra distribución de Ubuntu.
+
+Iniciamos la máquina virtual.
+
+Seleccionamos try or install Ubuntu.
+
+En la pantalla de login, presionamos: fn + f2 para abrir una nueva consola.
+
+Lo primero que haremos será crear una contraseña al usuario root.
+
+
+sudo passwd
+Luego validamos las particiones o discos existentes con:
+
+
+fdisk -l | less
+Vamos a la carpeta home del usuario:
+
+
+cd /
+Montamos la unidad que contiene el file system que validamos con el comando fdisk, en este caso es el sda2:
+
+
+mount /dev/sda2 /mnt
+Para acceder a los archivos dañados bastará con acceder a la carpeta que los contiene, para ello deberemos saber la ruta:
+
+
+ls /mnt/boot/grub/
+Ahora haremos el montaje de todo el sistema uniendo los archivos de nuestro sistema live con los del SO estropeado:
+
+
+mount -o bind /dev/     /mnt/dev
+mount -o bind /dev/pts  /mnt/dev/pts
+mount -o bind /proc     /mnt/proc
+mount -o bind /run      /mnt/run
+mount -o bind /sys      /mnt/sys
+Luego, para volver a ser el usuario root del sistema corrupto (en lugar del root del live SO), debemos emplear el comando chroot (change root), así:
+
+
+chroot /mnt /bin/bash → Lo cual nos abrirá una shell con permisos del usuario root del SO que fue reparado. 
+Después, para reparar el grub, debemos tipear:
+
+
+grub-mkconfig -o /boot/grub/grub.cfg
+Finalmente, si queremos instalar este grub debemos escribir:
+
+
+grub-install --boot-directory=/boot/ --recheck /dev/sda
+Hacemos un ls /boot/grub para validar que todo esté correcto; cerramos sesiones con exit y apagamos la máquina.
+
+Ya solo queda eliminar la imagen live, iniciar la máquina e iniciar sesión.

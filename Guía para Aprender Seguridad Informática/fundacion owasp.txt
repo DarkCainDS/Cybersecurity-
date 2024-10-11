@@ -1,0 +1,7 @@
+ ¿Qué es la Fundación OWASP? (Open Web Application Security Project):
+
+🖥️ Es una fundación sin fines de lucro que trabaja para mejorar la seguridad del software.
+
+🖥️ La Fundación OWASP es la fuente para que los desarrolladores y tecnólogos protejan la web. Herramientas y recursos Comunidad y redes Educación y formación.
+
+🖥️ Durante casi dos décadas, corporaciones, fundaciones, desarrolladores y voluntarios han apoyado a la Fundación OWASP y su trabajo.

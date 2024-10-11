@@ -1,0 +1,39 @@
+Root vs Administrador
+
+En Linux, las diferencias entre Root y un administrador son esenciales para comprender cómo funcionan los privilegios y la seguridad del sistema
+
+Root:
+
+- Definición: Root es el superusuario o administrador supremo en sistemas Unix y Linux. Es el usuario con control total sobre el sistema y puede realizar cualquier acción.
+
+- Privilegios:
+
+Puede instalar software, modificar archivos del sistema, crear usuarios, configurar servicios, y más.
+
+Tiene acceso a todos los directorios y archivos.
+
+Puede alterar configuraciones críticas del sistema.
+
+- Responsabilidad:
+
+- Peligroso: El uso incorrecto de Root puede causar daños irreparables al sistema.
+
+Limitar su uso: Se recomienda limitar el acceso a Root solo cuando sea necesario.
+
+Administrador:
+
+- Definición: Un administrador es un usuario con privilegios elevados, pero no tiene el control absoluto como Root.
+
+- Privilegios:
+
+Puede administrar usuarios, instalar software, configurar servicios, etc.
+
+No tiene acceso completo a todos los archivos y configuraciones.
+
+- Responsabilidad:
+
+Menos riesgoso: El uso de un administrador es menos peligroso que Root.
+
+Seguridad: Ayuda a mantener la seguridad y evita errores catastróficos.
+
+En resumen, Root es el rey absoluto, mientras que un administrador tiene privilegios limitados pero sigue siendo crucial para la administración del sistema

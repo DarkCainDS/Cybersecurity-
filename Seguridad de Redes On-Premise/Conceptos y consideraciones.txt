@@ -1,0 +1,14 @@
+	Conocimiento de vulnerabilidades y amenazas:
+Identificar y comprender las vulnerabilidades potenciales en la red, incluidas las debilidades en el hardware, software, configuraciones y prácticas de seguridad.
+Analizar las amenazas actuales y emergentes que podrían explotar esas vulnerabilidades, como malware, ataques de denegación de servicio (DDoS), phishing, ingeniería social, entre otros.
+Mantenerse al día con las tendencias de seguridad y las noticias sobre incidentes para comprender las tácticas utilizadas por los ciberdelincuentes y adaptar las defensas en consecuencia.
+	Despliegue de herramientas de seguridad:
+Implementar una variedad de herramientas de seguridad, como firewalls, sistemas de detección y prevención de intrusiones (IDS/IPS), antivirus, filtrado de contenido web, control de acceso, cifrado de datos, entre otros.
+Integrar estas herramientas en la infraestructura de red de manera coherente y coordinada para proporcionar una defensa multicapa contra diferentes tipos de amenazas.
+Automatizar tareas de seguridad siempre que sea posible para mejorar la eficiencia y la capacidad de respuesta ante incidentes.
+	Plan de aseguramiento con metas y controles de seguridad:
+Establecer metas claras de seguridad que reflejen los objetivos de la organización, como proteger la confidencialidad, integridad y disponibilidad de los datos y recursos críticos.
+Identificar controles de seguridad específicos para mitigar las vulnerabilidades y contrarrestar las amenazas, como políticas de acceso, encriptación de datos, monitoreo de red, etc.
+Definir métricas y KPIs para evaluar el desempeño de los controles de seguridad y medir el progreso hacia el logro de las metas de seguridad.
+Establecer procedimientos claros para la gestión de incidentes de seguridad, incluyendo la notificación, respuesta, recuperación y análisis post-incidente.
+Realizar auditorías y revisiones periódicas del plan de aseguramiento para identificar áreas de mejora y asegurar su relevancia continua frente a los cambios en el entorno de amenazas y tecnológico.

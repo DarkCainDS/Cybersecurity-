@@ -1,0 +1,19 @@
+Cifrado
+Es el proceso de codificar información en un formato ilegible mediante el uso de algoritmos y claves, con el fin de que solo pueda ser leída por quien posea la clave de descifrado.
+
+Por ejemplo, si se aplica el cifrado AES-256 y la clave 1234, se obtiene:
+
+Original: Este es un texto confidencial Cifrado: L6eZTDA2Xz/l8R0lEc/w5qbuZexqC1d/HeomuMI6dqw=
+
+Cifrar la información es importante para evitar que terceros puedan acceder a ella en caso de que un dispositivo se pierda o sea robado.
+
+Los sistemas operativos modernos cuentan con herramientas como BitLocker en Windows, FileVault en Mac, o LUKS en Linux, que permiten cifrar el disco duro y unidades extraibles.
+
+Tipos de cifrado:
+
+Simétrico: Se utiliza la misma clave para cifrar y descifrar. Un ejemplo es el cifrado de César.
+Asimétrico: Se utilizan dos claves distintas pero relacionadas entre si, una es pública y la otra es privada. Ambas pueden ser utilizadas para cifrar y descifrar, pero si se utiliza la pública para cifrar, solo la privada puede descifrar, y viceversa. Un ejemplo es el cifrado RSA.
+Consideraciones a la hora de elegir un método de cifrado:
+
+Tamaño de la clave: Cuanto más grande sea la clave, más segura estará la información, pero también será más lento el proceso de cifrado y descifrado.
+Algoritmo: Existen algoritmos más seguros que otros, pero al igual al igual que en el punto anterior, cuanto más seguro sea el algoritmo, más lento será el proceso de cifrado y descifrado

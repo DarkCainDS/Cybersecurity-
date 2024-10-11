@@ -1,0 +1,19 @@
+Injection
+
+Es el riesgo asociado a datos enviados por el usuario, no sanitizados, validados o filtrados por la aplicación.
+
+Ejemplo
+
+Acceso inseguro a base de datos
+Se debe recordar el payload, que es una cadena mal formada, cuando se utiliza el payload se puede materializar una inyección SQL, teniendo acceso a mayor cantidad de registros o información a la que no estoy autorizado.
+Inspección no autorizada del file system
+Ocurre cuando no se sanitiza la entrada de datos y permite ingresar comandos del sistema operativo por ejemplo.
+Controles
+
+Sanitizar los inputs de datos de la aplicación
+Queries parametrizadas
+Usar LIMIT y otros controles a nivel de SQL para limitar el acceso a registros.
+
+La inyección, especialmente la Inyección SQL, es uno de los riesgos de seguridad más críticos y prevalentes en aplicaciones web, según el OWASP Top 10. Este tipo de vulnerabilidad ocurre cuando un atacante puede enviar o "inyectar" instrucciones no confiables a un intérprete como parte de una consulta o comando. Este proceso puede resultar en el acceso no autorizado a datos, la alteración de estos o incluso la ejecución de operaciones arbitrarias en el servidor afectado. Aunque la Inyección SQL es la forma más conocida, existen otros tipos de inyección, como la inyección de comandos del sistema operativo, la inyección LDAP, y la inyección de código en aplicaciones.
+
+' WHERE u.id = 2; UPDATE user_roles ur SET role_id = 1 WHERE ur.user_id = 2;SELECT * FROM users u --'

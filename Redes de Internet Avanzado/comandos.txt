@@ -1,0 +1,2 @@
+ns lookup = mac
+nslookup example.com  = buscar ip windows

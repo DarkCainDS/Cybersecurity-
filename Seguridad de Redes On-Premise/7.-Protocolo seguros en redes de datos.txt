@@ -1,0 +1,6 @@
+En el ámbito de las redes de datos, la seguridad es una prioridad máxima para proteger la confidencialidad, integridad y disponibilidad de la información. Los protocolos seguros juegan un papel crucial en la implementación de medidas de seguridad efectivas. Estos protocolos están diseñados para asegurar las comunicaciones en redes inseguras, como Internet, mediante el cifrado de datos, la autenticación de las partes involucradas y el aseguramiento de la integridad de los datos transmitidos.
+
+
+
+
+Protocolos no seguro DNS - 53 FTP - 23 HTTP - 80 y 8080 IMAP - 143 LDAP - 389 POP3 - 110 RTP 16384 - 32767 SNMP 161 y 162 Telnet 23 Protocolos seguros DNSSEC - 53 FTPS - 22 SFTP - 22 HTTPS - 443 IMAPS - 993 LDAPS - 636 POP3 - 995

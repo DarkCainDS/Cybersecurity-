@@ -1,0 +1,21 @@
+VULNERABILIDADES
+
+¿Qué es una vulnerabilidad? -Fallo o defecto -Por causa de programción, diseño o configuración -Altera el flujo normal del sistema -Persona mal intencionada puede sacar provecho
+
+¿Cómo clasificar las vulnerabilidades? -MITRE Top 25 -Contiene Top de errores -Más cometidos en progración
+
+
+-OWASP Top 10
+	-Protección y busqueda
+	-software seguro
+
+-SANS Top 20
+	-Lista vulnerabilidades
+	-Necesita solución inmediata
+¿Para que sirven los Tops? -Verificación de vulnerabilidades -Para saber si son compatibles con otras empresas -Enfocado a software y hardware
+
+Gestión de vulnerabilidades -Págnas para encontrar y clasificar vulnerabilidades -https://cve.mitre.org/ -https://nvd.nist.gov/vuln/search -https://www.incibe-cert.es/alerta-temprana/vulnerabilidades -https://www.first.org/cvss/
+
+CVE -Diccionario de vulnerabilidades -Identifica vulniberalidades de forma única -Contabiliza número de vulnerabilidades -Darnos cuenta si nuestro equipo tiene vulnerabilidades -Reforzar vulnerabilidades
+
+CVSS -Ayuda a medir la gravedad de las vulnerabilidades -Lo hace atraves de formulas matemáticas -Con metricas de Báse, tiempo, ambiente

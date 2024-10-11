@@ -1,0 +1,3 @@
+Equipos activos de LAN: el cableado sigue siendo importante
+
+¿Cuándo gana el cable? • Las mayores velocidades se obtienen en conexiones cableadas, por la ausencia de interferencia electromagnética (1GB - 10GB). • Los puertos cableados pueden agregarse ampliando más la velocidad • La fibra óptica sigue siendo el medio de transmisión con mayor capacidad. • En entornos de alta seguridad es más sencillo restringir el acceso por puertos físicos con medidas adicionales. • Las conexiones dentro del data center siguen siendo cableadas. • Es más óptimo en lugares de alta concentración y baja movilidad como aulas de clase preconfiguradas.

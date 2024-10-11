@@ -1,0 +1,81 @@
+Usando crypto-js en JavaScript
+Primero, debes instalar la biblioteca crypto-js. Puedes hacerlo utilizando npm:
+
+bash
+Copy code
+npm install crypto-js
+Luego, puedes usar la biblioteca para cifrar y descifrar datos con AES:
+
+javascript
+Copy code
+const CryptoJS = require("crypto-js");
+
+// Clave y datos
+const key = CryptoJS.enc.Utf8.parse('1234567890123456');  // Clave de 128 bits
+const data = "Datos secretos";
+
+// Cifrar
+const ciphertext = CryptoJS.AES.encrypt(data, key, {
+    mode: CryptoJS.mode.ECB,
+    padding: CryptoJS.pad.Pkcs7
+}).toString();
+
+console.log("Ciphertext:", ciphertext);
+
+// Descifrar
+const bytes = CryptoJS.AES.decrypt(ciphertext, key, {
+    mode: CryptoJS.mode.ECB,
+    padding: CryptoJS.pad.Pkcs7
+});
+const plaintext = bytes.toString(CryptoJS.enc.Utf8);
+
+console.log("Plaintext:", plaintext);
+Usando el módulo crypto en Node.js
+Node.js tiene un módulo crypto incorporado que puedes usar para realizar cifrado AES:
+
+javascript
+Copy code
+const crypto = require('crypto');
+
+// Clave y datos
+const key = crypto.randomBytes(16); // Clave de 128 bits
+const iv = crypto.randomBytes(16);  // Vector de inicialización
+const data = "Datos secretos";
+
+// Cifrar
+const cipher = crypto.createCipheriv('aes-128-cbc', key, iv);
+let ciphertext = cipher.update(data, 'utf8', 'hex');
+ciphertext += cipher.final('hex');
+
+console.log("Clave:", key.toString('hex'));
+console.log("IV:", iv.toString('hex'));
+console.log("Ciphertext:", ciphertext);
+
+// Descifrar
+const decipher = crypto.createDecipheriv('aes-128-cbc', key, iv);
+let plaintext = decipher.update(ciphertext, 'hex', 'utf8');
+plaintext += decipher.final('utf8');
+
+console.log("Plaintext:", plaintext);
+Explicación de los Pasos
+1. Generación de la Clave y el Vector de Inicialización (IV)
+Para AES, necesitas una clave de un tamaño adecuado (128 bits en este ejemplo) y, en algunos modos de operación, un vector de inicialización (IV).
+
+2. Cifrado
+Con crypto-js:
+
+El texto plano se cifra utilizando la clave especificada.
+El modo de operación y el esquema de padding se especifican en las opciones (en este caso, ECB y PKCS7).
+Con crypto en Node.js:
+
+Se utiliza createCipheriv para crear un objeto de cifrado con el algoritmo AES, la clave y el IV.
+Los datos se cifran en formato UTF-8 y se convierten a formato hexadecimal.
+3. Descifrado
+Con crypto-js:
+
+El texto cifrado se descifra utilizando la misma clave y las mismas opciones especificadas durante el cifrado.
+Con crypto en Node.js:
+
+Se utiliza createDecipheriv para crear un objeto de descifrado con los mismos parámetros que se usaron para el cifrado.
+Los datos cifrados se descifran y se convierten de formato hexadecimal a UTF-8.
+Estos ejemplos te muestran cómo cifrar y descifrar datos utilizando AES en JavaScript, tanto en un entorno de navegador (con crypto-js) como en un entorno de servidor (con Node.js).

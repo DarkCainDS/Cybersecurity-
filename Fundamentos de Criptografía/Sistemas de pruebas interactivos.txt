@@ -1,0 +1,33 @@
+<u>Sistemas de pruebas interactivos</u> (Mostrar informacion sin revelar secretos)
+
+En el ámbito de la criptografía, los sistemas de pruebas interactivos (SPI) desempeñan un papel crucial en la verificación de información sin revelar secretos. Estos sistemas permiten a un probador (que posee información confidencial) demostrar a un verificador (que no posee dicha información) que cumple con ciertas condiciones sin revelar la información en sí.
+
+Principio fundamental de los SPI:
+
+La base de los SPI reside en el concepto de conocimiento cero. Esto significa que el probador puede demostrar al verificador que posee cierta información sin revelar dicha información en el proceso.
+
+Funcionamiento de los SPI:
+
+El probador y el verificador acuerdan un protocolo de comunicación. Este protocolo define las reglas que regirán la interacción entre ambos.
+El probador envía un mensaje inicial al verificador. Este mensaje puede contener información pública y/o compromisos criptográficos.
+El verificador envía una serie de desafíos al probador. Estos desafíos son preguntas o tareas que el probador debe responder o completar de acuerdo con el protocolo.
+El probador responde a los desafíos del verificador. Las respuestas del probador involucran cálculos criptográficos y/o revelaciones parciales de información.
+El verificador verifica las respuestas del probador. Si las respuestas son válidas, el verificador acepta la prueba. De lo contrario, la prueba falla.
+Propiedades clave de los SPI:
+
+Seguridad: El verificador no obtiene ninguna información confidencial del probador, incluso si la prueba falla.
+Completitud: Si el probador realmente posee la información requerida, podrá convencer al verificador con alta probabilidad.
+Solidez: Si el verificador acepta la prueba, el probador realmente posee la información requerida.
+Aplicaciones de los SPI en criptografía:
+
+Firmas digitales: Un usuario puede probar a un servidor web que posee la clave privada correspondiente a un certificado digital sin revelar la clave en sí.
+Autenticación de identidad: Un usuario puede demostrar a un servidor web su identidad sin revelar su contraseña.
+Criptografía de curva elíptica: Los SPI se utilizan en protocolos de criptografía de curva elíptica para permitir el intercambio de claves seguras entre dos partes.
+Pruebas de conocimiento cero: Los SPI se utilizan como base para construir pruebas de conocimiento cero más complejas, que permiten demostrar la posesión de información sin revelar dicha información.
+Ejemplos de SPI en criptografía:
+
+Protocolo Fiat-Shamir: Un protocolo clásico de firma digital basado en SPI.
+Protocolo Guillou-Quist: Un protocolo de autenticación de identidad basado en SPI.
+Protocolo Schnorr: Un protocolo de firma digital eficiente basado en SPI.
+Protocolo Sigma: Un protocolo de prueba de conocimiento cero genérico basado en SPI.
+En resumen, los sistemas de pruebas interactivos son herramientas criptográficas esenciales que permiten la verificación de información sin revelar secretos. Su aplicación en diversas áreas de la criptografía, como las firmas digitales, la autenticación de identidad y la criptografía de curva elíptica, los convierte en componentes fundamentales para garantizar la seguridad y la privacidad en las comunicaciones digitales

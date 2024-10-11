@@ -1,0 +1,15 @@
+Firewall
+Es un software o dispositivo que permite controlar el tráfico entrante o saliente de la red, permitiendo o denegando su paso dependiendo de las reglas configuradas.
+
+Es utilizado en el modelo de seguridad Zero Trust, en el cual se asume que ningún origen es confiable, excepto aquellos que son necesarios para el funcionamiento de la organización. Este modelo abarca el control de identidades, dispositivos, aplicaciones, infraestructura, bases de datos y toda la red corporativa.
+
+Existen dos implementaciones de firewall:
+
+Appliance en sitio: Dispositivo físico con su respectivo sistema operativo que se conecta a la red y realiza el control de tráfico.
+Cloud security: Son servicios ofrecidos por empresas externas, se adquiere según demanda y de forma modular.
+Beneficios:
+
+Panorama de seguridad: Permiten visualizar qué está ocurriendo en la red facilitando la toma de decisiones.
+Calidad del servicio: Permite priorizar el tráfico de ciertas aplicaciones según las necesidades de la organización.
+Control permanente: Bloque de nuevas amenazas y modos de ataques.
+Canales de red seguros: Permite la creación de VPNs seguras, ideales para el trabajo remoto.

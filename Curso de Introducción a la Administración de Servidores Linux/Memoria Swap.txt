@@ -1,0 +1,55 @@
+En Linux, un archivo de swap (también conocido como archivo de intercambio) es un archivo que se utiliza para expandir la memoria virtual del sistema cuando se necesita más memoria RAM de la que está disponible físicamente en la computadora.
+
+Cuando el sistema operativo necesita más memoria RAM de la que hay disponible, parte del contenido de la memoria RAM se mueve al archivo de swap, lo que permite que se libere memoria RAM para que se puedan ejecutar más procesos. Cuando se necesita acceder a la información que se ha movido al archivo de swap, el sistema operativo la mueve de regreso a la memoria RAM.
+
+CREAR TU MEMORIA SWAP
+
+Mover al ROOT
+
+
+cd /
+Confirmar si tengo un archivo swap actualmente
+
+
+ls -lh
+ver la cantidad de memoria disponible
+
+
+free -h
+ver si tengo suficiente espacio en disco para aumentar la particion swap actual o crear una nueva
+
+
+df -h
+creo un archivo especial para mi memoria swap
+
+
+sudo fallocate -l 2G /swapfile
+configurar permisos para que solo el root acceda a este archivo acceda en lectura y escritura
+
+
+sudo chmod 600 /swapfile
+Confirmo que tengo mi archivo swap creado
+
+
+ls -lh
+Convertir el archivo swap creado en un archivo swap valido
+
+
+sudo mkswap /swapfile
+Configurar el fstab
+
+
+sudo vim /etc/fstab
+Escribir nueva linea en el archivo fstab
+
+
+/swapfile swap swap defaults 0 0
+Para salir de vim solo teclea ESCAPE luego :wq y dar ENTER,el archivo se guarda y sales del editor
+comprobar los cambios que hice al archivo fstab cat /etc/fstab
+activamos nuestro archivo especial como memoria swap sudo swapon /swapfile
+si queremos desactivar nuestro archivo para ya no usarlo como memoria swap solo usamos sudo swapoff /swapfile y eliminar la linea del archivo fstab que configuramos anteriormente.
+
+sudo swapon /swapfile = encender el swap
+sudo swapoff /swapfile = apagar el swap
+
+https://linuxopsys.com/linux-fstab-options

@@ -1,0 +1,3 @@
+https://docs.oracle.com/cd/E50691_01/html/E50101/gnchj.html
+https://www.intel.com/content/www/us/en/support/articles/000033003/server-products.html
+https://www.nosolohacking.info/configurar-cualquier-raid-en-cualquier-distro-de-linux/https://linuxhint.com/grub_boot_loader_full_tutorial/

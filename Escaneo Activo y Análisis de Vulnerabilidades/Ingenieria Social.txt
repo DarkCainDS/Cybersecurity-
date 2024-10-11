@@ -1,0 +1,19 @@
+La disciplina que consiste en extraer datos sin que la víctima se percate y lograr la confianza para luego engañarlas y manipularlas para el beneficio propio de quien la implementa, se le conoce como ingeniería social.
+
+Consiste en aprovechar las habilidades sociales de la persona, realizando una recolección de datos activas.
+
+¿Por qué funciona la ingeniería social?
+Para que la ingeniería social sea efectiva, se necesita tres elementos fundamentales:
+
+Todos tienen atención selectiva
+Todos suelen distraerse con algo
+La confianza
+Las personas son el eslabón más débil, es extremadamente difícil de detectar cuando no existe IDS (Intrusion Detection System) para la falta de sentido de común o ignoracia.
+
+¿Qué se puede recolectar?
+Información a través de medios sociales
+Información de acceso wifi en algún establecimiento
+Complementar información
+Crear una identidad falsa
+Encontrar otros vectores de ataque
+Contribución creada con los aportes de: Angie Espinoza (Platzi Contributor).

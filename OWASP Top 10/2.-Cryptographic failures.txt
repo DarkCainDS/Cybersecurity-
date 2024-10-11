@@ -1,0 +1,25 @@
+Las "Cryptographic Failures" (anteriormente conocidas como "Sensitive Data Exposure") se refieren a una categoría de vulnerabilidades de seguridad identificadas en el OWASP Top 10 que se centra en la protección inadecuada de datos sensibles debido a la implementación incorrecta o la falta de cifrado adecuado. Este tipo de fallos puede llevar a que los datos sensibles de los usuarios, como información financiera, credenciales de acceso, datos personales, y otros datos protegidos, sean expuestos a actores maliciosos, comprometiendo la confidencialidad y la integridad de estos datos.
+
+Cómo Ocurren los Fallos Criptográficos
+Los fallos criptográficos pueden ocurrir por varias razones, incluyendo pero no limitándose a:
+
+Uso de cifrado débil o obsoleto: Implementar algoritmos de cifrado que han sido vulnerados o que son inherentemente débiles aumenta el riesgo de que los datos cifrados sean descifrados por atacantes.
+Configuración inadecuada de los parámetros de cifrado: Incluso si se utilizan algoritmos fuertes, una configuración inadecuada (como tamaños de clave insuficientes o modos de operación inseguros) puede comprometer la seguridad.
+Falta de cifrado: No utilizar cifrado para datos sensibles en tránsito o en reposo deja la información expuesta a interceptaciones o accesos no autorizados.
+Gestión inadecuada de claves criptográficas: La exposición, pérdida o robo de claves criptográficas puede anular los beneficios del cifrado, ya que permite a los atacantes descifrar los datos protegidos.
+Almacenamiento inseguro de credenciales: Guardar contraseñas o tokens de autenticación sin las debidas medidas de protección, como el hashing de contraseñas con sal, puede llevar a su compromiso.
+Impacto de los Fallos Criptográficos
+El impacto de los fallos criptográficos puede ser significativo, incluyendo:
+
+Exposición de datos personales: Puede llevar a violaciones de la privacidad, robo de identidad, y otros daños personales para los usuarios afectados.
+Pérdida financiera: Tanto para los usuarios cuyos datos financieros son comprometidos como para las organizaciones que enfrentan multas, costos de remediación y daños a su reputación.
+Incumplimiento de regulaciones: Muchas jurisdicciones tienen leyes que requieren la protección adecuada de datos sensibles, y los fallos criptográficos pueden resultar en sanciones legales y multas.
+Mitigación de los Fallos Criptográficos
+Para mitigar los fallos criptográficos, las organizaciones deben adoptar una serie de prácticas recomendadas, que incluyen:
+
+Implementar políticas de cifrado fuerte: Utilizar algoritmos y protocolos de cifrado actualizados y recomendados por expertos en seguridad.
+Gestión adecuada de claves: Asegurar que las claves criptográficas se almacenen y manejen de forma segura, incluyendo su rotación y revocación cuando sea necesario.
+Uso de HTTPS: Asegurar que todo el tráfico de datos en tránsito esté cifrado utilizando HTTPS con configuraciones actualizadas y seguras.
+Protección de datos en reposo: Cifrar datos sensibles almacenados, utilizando soluciones de cifrado de disco completo o cifrado de campos específicos en bases de datos.
+Auditorías y pruebas de seguridad regulares: Realizar auditorías de seguridad y pruebas de penetración para identificar y remediar posibles fallos criptográficos.
+Al abordar proactivamente los fallos criptográficos, las organizaciones pueden proteger eficazmente los datos sensibles contra accesos no autorizados y cumplir con las obligaciones legales y éticas de proteger la información de sus usuarios.

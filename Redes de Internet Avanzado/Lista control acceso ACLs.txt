@@ -1,0 +1,22 @@
+Lista de control de acceso: elementos
+
+• Permiten limitar el tráfico que va de una red a otra. • Tienen sentido como una implementación física de una politica de seguridad . - ¿Cómo operan las ACLs? • Las reglas se evalúan una a una en el orden que fueron configuradas. • Una vez que se encuentra el primer match se aplica la regla y se omiten las demás. • Lo anterior implica que deben construirse de lo particular a lo general. • Al final de toda lista existe una regla implícita de negar todo. - Tipos de listas de ACLs • Estándar: Filtra según la IP de origen • Extendida: Filtra según:
+
+IP Origen
+
+IP Destino
+
+Puerto UDP/TCP Origen
+
+Puerto UDP/TCP Destino
+
+Protocolo
+
+
+Puede aplicarse una ACL por: • Cada protocolo (Ejemplo IPv4, IPv6) • Cada dirección(In-Out) • Cada interfaz (Ejmplo GigabitEthernet 0/0)
+
+* Dónde aplicar ACLs • Las ACLs extendidas se ubican lo más cerca posible del ORIGEN del tráfico • Las ACLs estándar se ubican lo más cerca posible del DESTINO del tráfico.
+ACLs nombradas • Permiten identificar la ACL con nombre fácil de recordar • Permiten editar regla por regla identificando cada una por un número ascendente
+
+* ACLs para acceso a los equipos • Las ACLs aplicadas a los puertos solo filtran el tráfico que atraviesa el enrutador, no el tráfico administrativo que va dirigido a éste. • Para aplicar una ACL al tráfico administrativo se usa acces-class
+Buenas prácticas • Crear las ACL según la política de seguridad • Mantener la descripción de lo que la ACL debe hacer • Editar las ACLs fuera de línea antes de configurarlas • Probar las ACLs en un entrono de testing antes de aplicarlas a la red

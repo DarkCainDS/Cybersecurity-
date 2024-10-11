@@ -1,0 +1,17 @@
+¿Qué son las cuentas de usuario y los grupos?
+
+Una tarea de administración del sistema básica es configurar una cuenta de usuario para cada usuario en un sitio. Una cuenta de usuario típica incluye la información que necesita un usuario para iniciar sesión y utilizar un sistema, sin tener la contraseña root del sistema. Los componentes de información de cuenta de usuario se describen en Componentes de cuentas de usuario.
+
+Al configurar una cuenta de usuario, puede agregar el usuario a grupos de usuarios predefinidos. Un uso habitual de grupos es configurar permisos de grupo en un archivo y directorio, lo que permite el acceso sólo a los usuarios que forman parte de ese grupo.
+
+Por ejemplo, puede tener un directorio que contenga archivos confidenciales a los que sólo unos pocos usuarios deberían tener acceso. Puede configurar un grupo denominado topsecret que incluya los usuarios que trabajan en el proyecto topsecret. Y, puede configurar los archivos topsecret con permiso de lectura para el grupo topsecret. De esta manera, sólo los usuarios del grupo topsecret podrán leer los archivos.
+
+Un tipo especial de cuenta de usuario, denominado un rol, sirve para brindar a usuarios seleccionados privilegios especiales. Para obtener más información, consulte Control de acceso basado en roles (descripción general) de Guía de administración del sistema: servicios de seguridad.
+
+¿Qué son las cuentas de usuario y los grupos? - Guía de administración del sistema: administración básica. (2011, 1 enero). https://docs.oracle.com/cd/E24842_01/html/E23289/userconcept-36940.html
+
+Usuario: Nos permite separar las responsabilidades y permisos de acciones en el sistema. Dependiendo los permisos que tengan son las acciones que podrán ejecutar.
+
+Características: UID: Identificador único del sistema GIDs: uno o más IDs que los relacionan a un grupo Directorio Home: está en la ruta /home/<username> Archivos /etc/passwd: contiene info de nuestros usuarios en formato name:password:UID:GID:GECOS:directory:shell GECOS: info extra SHELL: la shell de inicio /etc/shadow: contraseña de forma sifrada, si contiene un asterico * significa que jamas tuvo una contraseña asignada, si contiene un simbolo de exclamacion ! ha sido bloqueado
+
+Grupos: Agrupan usuario y conjunto de permisos, estos son muy usados por servicios como demonios, docker, postgres, etc

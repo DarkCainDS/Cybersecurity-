@@ -1,0 +1,22 @@
+DESCARGAR EL SIMULADOR PACKER TRACER
+
+Packet Tracer es un simulador perteneciente a Cisco Systems y que puede ser descargado una vez se ha hecho el registro en su plataforma.
+
+Para registrarse ir a https://www.netacad.com
+
+Dar click en el ícono denominado Packet Tracer
+Dar click en Enroll to Download Packet Tracer
+Dar click en Sing up Today -> English
+Diligenciar First Name, Last Name, email
+Se recibirá un correo con instrucciones para crear la cuenta
+Verificar la cuenta de correo con el código recibido
+Una vez creada la cuenta iniciar sesión en https://www.netacad.com
+Confirmar los datos personales (solo en el primer inicio de sesión)
+Dar click en Create Account
+Aparecerá en la sección I’m Learning: Introduction to Packet Tracer
+Abrirlo y dirigirse a Student Resources
+Dar click en el Link Download and Install the latest version of Packet Tracer
+Abrir Packet Tracer Resources -> PT Desktop -> 7.2.2
+Descargar la versión según el sistema operativo (Windows, Linux o Mac)
+Instalar localmente
+Una vez instalado abrir el programa, solicitará inicio de sesión, usar la misma cuenta creada en la plataforma Netacad.

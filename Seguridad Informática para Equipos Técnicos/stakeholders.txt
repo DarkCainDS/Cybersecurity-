@@ -1,0 +1,11 @@
+Stakeholders
+Son todos los interesados (personas, empresas o aliados) que aportan al cumplimiento de la ciberseguridad. Existen dos tipos:
+
+Sector Privado: Son las proveedores de tecnología que aportan controles y ayudan a mitigar riesgos.
+Sector Público: Son los gobiernos que definen las normativas y regulaciones a cumplir.
+Las responsabilidades de los stakeholders son:
+
+Aplicar controles
+PRomover el cumplimiento de normas y estándares.
+Auditar las buenas practicas de ciberseguridad.
+Aplicar sanaciones o multas por incumplimientos.

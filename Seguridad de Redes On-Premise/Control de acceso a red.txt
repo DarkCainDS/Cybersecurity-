@@ -1,0 +1,49 @@
+Network Access Control (NAC) es una solución de seguridad que se utiliza para controlar y gestionar el acceso de los dispositivos a una red corporativa. NAC tiene como objetivo garantizar que solo los dispositivos autorizados y que cumplen con las políticas de seguridad de la organización puedan acceder a la red. A continuación, se describen los componentes y funcionalidades clave de una solución NAC:
+
+Componentes Clave de NAC
+Políticas de Acceso:
+
+Definen quién puede acceder a la red, cuándo y desde qué dispositivos.
+Especifican los requisitos de seguridad, como tener un antivirus actualizado, un firewall habilitado, etc.
+Autenticación y Autorización:
+
+Autenticación: Verificación de la identidad del usuario o dispositivo antes de permitir el acceso.
+Autorización: Determinación del nivel de acceso que se le concede al usuario o dispositivo autenticado.
+Evaluación de Cumplimiento (Compliance):
+
+Verificación de que los dispositivos cumplen con las políticas de seguridad antes de permitirles el acceso a la red.
+Esto puede incluir la verificación de parches de seguridad, configuraciones de seguridad y estado del software.
+Control de Acceso Dinámico:
+
+Capacidad de otorgar, restringir o revocar el acceso a la red en tiempo real basado en las políticas definidas y el estado de cumplimiento del dispositivo.
+Funcionalidades de NAC
+Gestión de Dispositivos:
+
+Identificación y clasificación de todos los dispositivos conectados a la red.
+Administración de dispositivos permitidos y denegados.
+Segmentación de Red:
+
+Creación de segmentos de red separados para diferentes tipos de dispositivos o usuarios, mejorando la seguridad y el control.
+Monitoreo y Reportes:
+
+Supervisión continua de los dispositivos y usuarios en la red.
+Generación de informes detallados sobre el acceso y el cumplimiento de las políticas.
+Respuesta a Incidentes:
+
+Acciones automáticas en respuesta a dispositivos no conformes o comportamientos sospechosos, como la cuarentena de dispositivos o la limitación de acceso.
+Beneficios de NAC
+Seguridad Mejorada:
+
+Reducción de riesgos mediante el control de qué dispositivos pueden acceder a la red y asegurando que cumplan con las políticas de seguridad.
+Visibilidad y Control:
+
+Mayor visibilidad sobre los dispositivos conectados a la red y control sobre su acceso y actividad.
+Cumplimiento Normativo:
+
+Ayuda a cumplir con regulaciones y estándares de seguridad mediante la implementación de políticas de acceso y seguridad.
+Implementación de NAC
+Pre-admisión: Evaluación y autenticación de dispositivos antes de permitirles el acceso a la red.
+Post-admisión: Monitoreo y control continuo de los dispositivos una vez que ya están en la red.
+Basado en la Red: Integración con la infraestructura de red existente para controlar el acceso en los puntos de entrada a la red.
+Basado en el Host: Instalación de agentes en los dispositivos para controlar el acceso y el cumplimiento.
+Implementar NAC en una organización puede ser un proceso complejo que requiere una planificación cuidadosa y una comprensión clara de las políticas de seguridad y los requisitos de cumplimiento.

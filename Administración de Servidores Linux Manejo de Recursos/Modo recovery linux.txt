@@ -1,0 +1,17 @@
+Modo recovery
+
+En el contexto de Linux, el "modo de recuperación" (recovery mode en inglés) es una opción de arranque especial que proporciona un entorno de trabajo mínimo con privilegios de administrador (root) para solucionar problemas o realizar tareas de mantenimiento en un sistema Linux. También se conoce como "modo de emergencia" o "modo de rescate".
+
+Cuando se inicia en el modo de recuperación, el sistema operativo Linux se inicia con un conjunto mínimo de servicios y controladores. Esto permite al usuario realizar diversas acciones, como:
+
+Recuperación de contraseñas: En el modo de recuperación, se puede modificar o restablecer contraseñas de usuarios, lo que resulta útil si se ha olvidado una contraseña y no se puede iniciar sesión en el sistema.
+
+Reparación del sistema de archivos: Si el sistema de archivos tiene errores o problemas de integridad, se puede utilizar el modo de recuperación para realizar una comprobación y reparación del sistema de archivos.
+
+Modificación de configuraciones: El modo de recuperación permite editar archivos de configuración importantes, como el archivo /etc/passwd, /etc/group, /etc/sudoers y otros, lo que permite realizar cambios necesarios para solucionar problemas.
+
+Actualización de software: En algunos casos, se puede utilizar el modo de recuperación para actualizar o instalar software adicional o corregir paquetes rotos que están causando problemas en el sistema.
+
+Resolución de problemas de red: En el modo de recuperación, se pueden realizar pruebas de conectividad de red y solucionar problemas relacionados con la configuración de red, como la configuración de interfaces de red o problemas con el servidor DHCP.
+
+Es importante tener en cuenta que el modo de recuperación proporciona un acceso de nivel de administrador al sistema, por lo que se debe tener cuidado al realizar cambios para evitar daños o alteraciones no deseadas.

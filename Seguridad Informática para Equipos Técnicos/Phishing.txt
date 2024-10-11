@@ -1,0 +1,5 @@
+###Phishing: Técnica de ingeniería social que suplanta la identidad de empresas, bancos o sus empleados para el robo de datos por medio de estas metodologías
+
+Email Scams: Envío masivo de mails a víctimas que han comprometido sus datos como movil, correo etc
+
+Spear Phishing: Se realiza una inteligencia mayor para involucrarse en la empresa para atacar desde dentro

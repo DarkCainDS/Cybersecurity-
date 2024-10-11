@@ -1,0 +1,19 @@
+Ransomware
+Es un tipo de malware que se encarga de cifrar los archivos de un dispositivo, para luego pedir dinero a modo de rescate para recuperarlos. Normalmente está dirigido a empresas, ya que los datos que poseen son valiosos.
+
+La forma en que operan es:
+
+Se propaga a través de correos electrónicos que simulan ser de un remitente confiable, pero que contienen un archivo adjunto infectado.
+Al abrir el archivo, el malware se ejecuta y comunica con un servidor de control que le indica las claves de cifrado a utilizar
+Comienza el proceso. Normalmente se buscan cifrar los archivos con extensiones relacionadas a programas de ofimática, (.docx,, .xlsx,, .pptx,, .pdf,, etc).
+Al finalizar, el dispositivo debe seguir estando operativo (aunque sin acceso a los datos), ya que el atacante necesita que la víctima vea las instrucciones para pagar el rescate.
+Factores de riesgo:
+
+Direcciones IP Públicas sin auditar: Se debe proteger todo lo que esté expuesto a internet.
+Firewall ausente o mal configurado
+Carencia de Endpoint Protection: Sistemas operativos sin parches o sin antivirus.
+No existen prácticas de Hardening: Proteger evitando las configuraciones por defecto.
+Para evitar ser víctima de un ransomware, se recomienda:
+
+Cultura de seguridad: Los empleados deben estar capacitados para identificar correos electrónicos sospechosos.
+Realizar copias de seguridad: No previene el ataque, pero evita pagar el rescate de los datos. Se debe probar la recuperación de los datos con regularidad.

@@ -1,0 +1,11 @@
+https://www.truecaller.com/  : 
+//Sitio para encontrar informacion del objetivo en base a un numero de telefono .
+
+
+Conocer el proveedor te puedo ayudar a realizar distintos ataques y recolectar aun mas información.
+
+Ataques de ingeniería social : Fingir ser un empleado de esa compañía telefónica.
+Si el objetivo investigado, tiene un plan contratado con la compañía de telefonía, puedes ir a un modulo de pago del servicio, esos módulos automatizados, solo pones el numero telefónico para “Pagar la mensualidad del plan” y la maquina te brindara información. - Esto mismo aplica cuando tienes un numero de tarjeta de banco, vas a un cajero de esos que puedes depositar dinero y pones el numero de la tarjeta para “enviar dinero” y el mismo cajero te brindara datos como el nombre del dueño de la tarjeta.
+En las comunidades underground de Hacking se mueven bases de datos de todo tipo, entre ellas, bases de datos de usuarios de alguna compañía telefónica como Telcel, Movistar, AT&T por ejemplo en el caso de México.
+Ataques al Gateway de SMS de una compañía telefónica para leer los SMS de un usuario y realizar ataques como robar WhatsApp.
+Recuerda que cada pequeño dato, por mínimo o insignificante que parezca, puedes encontrarle una utilidad. Saludos!

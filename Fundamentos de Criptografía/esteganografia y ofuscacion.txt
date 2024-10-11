@@ -1,0 +1,15 @@
+Esteganografía y ofuscación son dos conceptos que se utilizan en el ámbito de la seguridad de la información y, aunque a menudo se confunden, son técnicas distintas con propósitos diferentes.
+
+Esteganografía
+La esteganografía es una técnica utilizada para ocultar información dentro de otro archivo, de modo que la presencia de la información oculta no sea evidente. Algunos de los aspectos clave de la esteganografía son:
+
+Propósito: El objetivo de la esteganografía es esconder información de forma que pase desapercibida, es decir, hacer que parezca que no hay nada oculto.
+Métodos: La información se puede ocultar en una variedad de archivos, como imágenes, audio, video, documentos de texto o incluso en protocolos de red. Por ejemplo, se pueden alterar ligeramente los píxeles de una imagen o los bits de un archivo de audio para insertar datos ocultos.
+Usos: Se utiliza a menudo para comunicaciones secretas, donde la existencia misma de la comunicación debe permanecer oculta. También puede ser usada de forma maliciosa para ocultar malware o comunicaciones de comando y control.
+Ofuscación
+La ofuscación es una técnica utilizada para hacer que el código o los datos sean difíciles de entender o analizar. Los aspectos clave de la ofuscación incluyen:
+
+Propósito: El objetivo de la ofuscación es dificultar la comprensión del código o los datos. Esto puede ser para proteger la propiedad intelectual, dificultar el análisis de malware o evitar la detección de comportamientos sospechosos.
+Métodos: Existen diferentes formas de ofuscar código, como renombrar variables y funciones con nombres ambiguos, reordenar o insertar instrucciones de manera que no cambien el comportamiento del código, o utilizar técnicas de cifrado simple.
+Usos: La ofuscación se utiliza para proteger el código de ingeniería inversa, para esconder malware de los escáneres de seguridad o para hacer más difícil entender cómo funciona un programa.
+En resumen, mientras que la esteganografía se centra en ocultar la existencia de la información, la ofuscación se centra en hacer que la información o el código sean más difíciles de entender. Ambas técnicas pueden ser utilizadas tanto para propósitos legítimos como maliciosos, dependiendo del contexto.

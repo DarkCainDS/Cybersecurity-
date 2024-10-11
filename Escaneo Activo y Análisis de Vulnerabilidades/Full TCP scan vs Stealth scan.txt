@@ -1,0 +1,19 @@
+Full TCP scan
+
+Completa la conexión 3-way-Handshake (Intrusivo), hace un análisis completo hasta llegar a su conexión.
+
+
+-sT : Análisis utilizando TCP CONNECT
+Stealth scan
+
+Realiza la conexión SYN y termina en ACK (Sigiloso, requiere privilegio), hace un análisis solo utilizando TCP SYN
+
+
+-sS : Análisis utilizando TCP SYN
+--------------------------------------
+https://linuxhint.com/nmap_stealth_scan/
+-----------------------------------------
+El stealth scan se diferencia del full tcp scan en que para el escaneo de un host, no permite que se complete el saludo de 3-way-handshake de una conexión normal tcp. Solo llega hasta la parte de syn-ack y envía un rst (reset) en vez de un ack para el último paso. Este tipo de escaneo es mas silencioso por ser mas rapido y utilizar menos paquetes que el full tcp scan.
+
+-------------------------------------------
+Los Protocolos son formalidades especificas necesarias para la comunicación entre dispositivos, en este caso usamos TCP y Stealth, la diferencia es que en el primero la formalidad del protocolo se cumple completamente mientras que en el segundo es una actitud practica y que no permite al segundo dispositivo cumplir con las formalidades para hablar (establecer conexión) pero ya se obtuvo alguna info o al menos ya sabe ud que hay dispositivo, hay servidor, hay puerto es decir hay posible vulnerabilidad.

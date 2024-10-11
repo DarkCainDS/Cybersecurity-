@@ -1,0 +1,135 @@
+Manejo de procesos
+El process id nos sirve para identificar el software que se está manejando, pero también nos permite acabarlo, pausarlo, reiniciarlo, etc.
+
+Estados de un proceso
+Running or runnable (R)
+Uninterruptible sleep (D)
+Interruptible Sleep (S)
+Stopped (T)
+Zombie (Z)
+Tip: Para enviar un archivo o proceso a segundo plano solo debes añadir & al final de cada comando o cerrar el proceso con ctrl + Z.
+
+Para mirar los jobs o procesos abiertos en segundo plano también puedes usar:
+
+
+jobs -l
+Por otro lado, el comando:
+
+
+fg [PID]
+Nos permite volver a primer plano los procesos secundarios.
+
+Finalmente, para poder matar un proceso, debemos tener claro el process id, que podemos obtener por medio de htop. Luego, ejecutamos el comando:
+
+
+kill [PID]
+Pero si el proceso está en segundo plano, deberemos añadir lo siguiente:
+
+
+kill -s SIGKILL [PID]
+Por otro lado, si lo que deseamos es matar todos los procesos asociados a un programa, podemos hacerlo con el siguiente comando
+
+Estados de un proceso
+Running or runnable (R): procesos que al ejecutarse se encuentran consumiendo recursos (de memoria o CPU). Cuando no esta en este estado, generalmente debido a que los recursos que el proceso requiere no están disponibles o están siendo usados por otro proceso, se dice que el proceso esta ‘durmiendo’ (sleep), pero hay dos tipos de estados de ‘dormir’ o de ‘sleep’: interrumpible y no interrumpible. El proceso sale del estado de ‘sueño’ al tener acceso a los recursos que necesita para continuar ejecutándose.
+Uninterruptible Sleep (D): Este tipo de proceso no se pueden matar con una señal simple, ya que debe usarse una ‘sign kill’ para matar el proceso y que corresponde a un tipo de señal en particular.
+Interruptible Sleep (S): Son procesos que pueden interrumpirse con señales normales siempre y cuando se encuentren en espera. Es importante recordar que las señales son mecanismos que permiten al sistema terminar con procesos de forma ‘amigable’ y sin repercusiones para su funcionamiento.
+Stopped (T): Se refiere a procesos que han sido detenidos temporal o indefinidamente por un usuario. Se diferencia del estado en ‘sleep’ en el hecho de que un proceso que esta durmiendo sale de este estado al detectar que los recursos que necesita ya están disponibles.
+Zombie (Z): Es un estado correspondiente a los proceso que están desvinculados de su proceso ‘padre’ y que no están ejecutándose.
+Manejo de Procesos en Terminal
+Al colocar el símbolo ‘&’ al final de un comando, esté se sigue ejecutando en segundo plano. Ejemplo:
+
+less archivo.txt &
+Cuando un proceso pasa a segundo plano, se le añade un número identificador que sirve para manejar su estado (llamado ‘job ID’).
+
+Es posible usar el comando jobs -l para ver los procesos ejecutándose en segundo plano:
+
+jobs -l 
+Para traer un proceso a 1er plano, se usa ‘fg’ más el identificador de trabajo del proceso (llamado regularmente ‘job ID’) en segundo plano:
+
+fg job_ID
+Otra forma de enviar un proceso a segundo plano o background es usando CTRL + Z. Sin embargo, al usar esta opción, el proceso es enviado a segundo plano en estado de ‘detenido’ o ‘stopped’.
+Ejemplo de ejecución en terminal:
+
+
+
+Untitled
+
+También es posible matar un proceso con el comando kill más el PID del proceso. Si el proceso esta en background, no funciona usar kill sin argumentos.
+
+kill PID
+Matar un proceso en segundo plano:
+
+kill -s SIGKILL [PID]
+Matar todos los procesos asociados a un comando o término:
+
+killall [nombre_proceso]
+Listado de opciones de señales más comunes para kill
+
+Formato:
+
+
+kill <OPTION> <PID>     
+
+# Envia una señal al proceso con el ID especificado, por defecto SIGTERM
+Opciones:
+
+
+-1             
+# SIGHUP, reinicia el proceso
+
+-2             
+# SIGINT, interrumpe el proceso
+
+-9             
+# SIGKILL, termina el proceso de manera forzosa
+
+-15           
+ # SIGTERM, termina el proceso de manera normal <opción por defecto>
+
+-19           
+ # SIGSTOP, pausa el proceso
+
+-18            
+# SIGCONT, reanuda el proceso
+Estados de un proceso
+Running or runnable (R): procesos que al ejecutarse se encuentran consumiendo recursos (de memoria o CPU). Cuando no esta en este estado, generalmente debido a que los recursos que el proceso requiere no están disponibles o están siendo usados por otro proceso, se dice que el proceso esta ‘durmiendo’ (sleep), pero hay dos tipos de estados de ‘dormir’ o de ‘sleep’: interrumpible y no interrumpible. El proceso sale del estado de ‘sueño’ al tener acceso a los recursos que necesita para continuar ejecutándose.
+Uninterruptible Sleep (D): Este tipo de proceso no se pueden matar con una señal simple, ya que debe usarse una ‘sign kill’ para matar el proceso y que corresponde a un tipo de señal en particular.
+Interruptible Sleep (S): Son procesos que pueden interrumpirse con señales normales siempre y cuando se encuentren en espera. Es importante recordar que las señales son mecanismos que permiten al sistema terminar con procesos de forma ‘amigable’ y sin repercusiones para su funcionamiento.
+Stopped (T): Se refiere a procesos que han sido detenidos temporal o indefinidamente por un usuario. Se diferencia del estado en ‘sleep’ en el hecho de que un proceso que esta durmiendo sale de este estado al detectar que los recursos que necesita ya están disponibles.
+Zombie (Z): Es un estado correspondiente a los proceso que están desvinculados de su proceso ‘padre’ y que no están ejecutándose.
+Manejo de Procesos en Terminal
+Al colocar el símbolo ‘&’ al final de un comando, esté se sigue ejecutando en segundo plano. Ejemplo:
+
+less archivo.txt &
+Cuando un proceso pasa a segundo plano, se le añade un número identificador que sirve para manejar su estado (llamado ‘job ID’).
+
+Es posible usar el comando jobs -l para ver los procesos ejecutándose en segundo plano:
+
+jobs -l 
+Para traer un proceso a 1er plano, se usa ‘fg’ más el identificador de trabajo del proceso (llamado regularmente ‘job ID’) en segundo plano:
+
+fg job_ID
+Otra forma de enviar un proceso a segundo plano o background es usando CTRL + Z. Sin embargo, al usar esta opción, el proceso es enviado a segundo plano en estado de ‘detenido’ o ‘stopped’.
+Ejemplo de ejecución en terminal:
+
+
+
+Untitled
+
+También es posible matar un proceso con el comando kill más el PID del proceso. Si el proceso esta en background, no funciona usar kill sin argumentos.
+
+kill PID
+Matar un proceso en segundo plano:
+
+kill -s SIGKILL [PID]
+Matar todos los procesos asociados a un comando o término:
+
+killall [nombre_proceso]
+Listado de opciones de señales más comunes para kill
+
+Formato:
+
+
+kill <OPTION> <PID>     
+
+# Envia una señal al proceso con el ID especificado, por defecto SIGTERM

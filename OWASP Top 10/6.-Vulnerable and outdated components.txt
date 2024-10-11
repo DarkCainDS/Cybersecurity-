@@ -1,0 +1,13 @@
+El uso de componentes vulnerables y desactualizados puede tener varios impactos negativos, que incluyen, entre otros:
+
+Exposición a ataques: Las vulnerabilidades en componentes no actualizados pueden ser explotadas por atacantes para obtener acceso no autorizado, ejecutar código arbitrario, acceder a datos sensibles, o realizar ataques de denegación de servicio (DoS).
+Incumplimiento de normativas: La falta de cumplimiento con estándares de seguridad y regulaciones puede resultar en sanciones legales y dañar la reputación de la organización.
+Pérdida de datos: La explotación de vulnerabilidades puede llevar a la pérdida o exposición de datos sensibles de la empresa o de los usuarios.
+Estrategias de Mitigación
+Para mitigar los riesgos asociados con los componentes vulnerables y desactualizados, las organizaciones pueden adoptar varias estrategias:
+
+Inventario de componentes: Mantener un inventario actualizado de todos los componentes de terceros utilizados en las aplicaciones, incluyendo sus versiones.
+Monitoreo y evaluación de vulnerabilidades: Utilizar herramientas de escaneo de vulnerabilidades y suscripciones a bases de datos de vulnerabilidades para recibir alertas sobre nuevas vulnerabilidades en los componentes utilizados.
+Gestión de parches y actualizaciones: Establecer un proceso sistemático para la aplicación oportuna de parches y actualizaciones a los componentes vulnerables.
+Política de seguridad para el uso de componentes de terceros: Desarrollar y aplicar una política que defina los criterios para la selección, uso y mantenimiento de componentes de terceros, incluyendo la evaluación de seguridad antes de su adopción.
+Pruebas de seguridad: Realizar pruebas de seguridad regularmente, incluyendo pruebas de penetración, para identificar y mitigar vulnerabilidades en las aplicaciones.

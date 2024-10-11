@@ -1,0 +1,9 @@
+Traceroute permite ver por dónde pasa un paquete antes de llegar a su destino final (no es una conexión directa, pasa por distintos dispositivos).
+
+El análisis de estos datos es de información, ya que no se obtiene el permiso para escanear o hacer auditoria de pentesting a ninguno de los dispositivos por el cual pasa un paquete antes de llegar a su destino final.
+
+¿Qué hace Traceroute?
+Funciona al enviar paquetes de Protocolo de mensajes de control de Internet (ICMP), y cada enrutador involucrado en la transferencia de datos recibe estos paquetes. Los paquetes de ICMP proporcionan información sobre si los enrutadores utilizados en la transmisión pueden transferir los datos de manera efectiva.
+¿Cuál es la diferencia entre Ping y Traceroute?
+El ping indica si es accesible y el tiempo que toma para trasmitir y recibir datos, traceroute detalla la información precisa de la ruta.
+Contribución creada con los aportes de: Angie Espinoza (Platzi Contributor).

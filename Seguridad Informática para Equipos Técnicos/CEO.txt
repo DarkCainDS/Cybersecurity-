@@ -1,0 +1,9 @@
+CEO (Chief Executive Officer)
+Es el director ejecutivo de la empresa, por lo tanto es el máximo responsable de la forma en la que se gestiona la seguridad de la información.
+
+Sus responsabilidades son:
+
+Recurso humano para la Ciberseguridad: Es quien aprueba las contrataciones de personal acreditado para la seguridad.
+Garantiza el cumplimiento: Debe garantizar que se realizan los controles necesarios y se cumple con las normativas vigentes.
+Gestión de riesgos: Define la gestión de los riesgos.
+Cultura de ciberseguridad: Debe promover y fomentar la cultura de ciberseguridad en la empresa.

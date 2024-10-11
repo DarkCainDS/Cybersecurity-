@@ -1,0 +1,5 @@
+Mi resumen seria: Cuando se enciende un ordenador, la BIOS se ejecuta y verifica que todos los componentes estén funcionando correctamente. Cuando termina el chequeo, busca la partición de arranque (bootloader). Éste se encarga de cargar el sistema operativo en la RAM del ordenador. En el caso de Linux, GRUB es el bootloader más común.
+
+Una vez que el bootloader ha cargado el sistema operativo, lo primero que se ejecuta es el kernel, que es el encargado de administrar los recursos del sistema. Cuando el kernel ha cargado, se ejecuta Init, que es el primer proceso que realiza el sistema operativo. Este se encarga de iniciar todos los procesos necesarios para el correcto funcionamiento del sistema operativo.
+
+Luego, cuando el sistema operativo ha cargado sus procesos, se carga el entorno gráfico, que es la interfaz que los nosotros como usuarios vemos y con la que interactuamos.

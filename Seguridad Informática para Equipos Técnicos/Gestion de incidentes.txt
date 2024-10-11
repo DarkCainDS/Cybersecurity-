@@ -1,0 +1,12 @@
+Gestión de incidentes de ciberseguridad
+Es el proceso que permite actuar de forma rápida ante un ataque, definiendo acciones a tomar. A modo de referencia, se puede seguir el estándar NIST 800-61r2.
+
+De forma simplificada, dicha guía define los siguientes fases:
+
+Preparación: Definir roles y responsabilidades, definir procedimientos, entrenar al personal, etc.
+Detección y análisis: Utilizar los sistemas de control para detectar indicios de un incidente de seguridad.
+Identificación del incidente y su gravedad.
+Notificación a los encargados.
+Clasificación y priorización.
+Contención de incidentes: Se detiene el ataque y se intenta retomar la operación normal.
+Actividades post-incidente: Investigar la causa del ataque, aprender de el para evitar que vuelva a ocurrir.

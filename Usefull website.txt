@@ -1,0 +1,4 @@
+https://www.cvedetails.com/
+https://cve.mitre.org/
+https://nvd.nist.gov/
+https://www.exploit-db.com/

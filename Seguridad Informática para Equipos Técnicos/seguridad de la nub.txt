@@ -1,0 +1,10 @@
+++Seguridad en la nube:++ Es la rama que se encarga de la seguridad en sistemas Cloud. El modelo de seguridad compartida habla que la seguridad depende no solamente de la organización en cuestión sino de toda la red que la compone. Controles de Seguridad:
+
+Perimetro de seguridad mas fuerte con dispositivos o aplicaciones como Firewalls, IPS o sistemas de gestion como SIEM
+IAM (Identity and Access Management) Es la gestion de usuarios para que puedan acceder a los recursos del proveedor de servicios Cloud.
+Replicación: Replicar el servicio Cloud en varios servidores (Disponibilidad)
+Observabilidad. Rastreo completo de todo lo que pasa en la app. SIEM
+Gobernanza. Serie de normas y controles para proteger los datos
+Compliance. Cumplimiento de normas y regulaciones
+Manejo de datos. Asegurarnos que los datos esten seguros.
+En una arquitectura segura se debe filtrar el tratamiento de los usuario externos, autorizados e internos, catalogando lo que puede y no acceder cada uno de estos con diferentes barreras y comprobaciones.

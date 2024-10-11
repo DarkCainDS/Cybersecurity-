@@ -1,0 +1,8 @@
+Modos de Operación Criptográfica: ECB, CBC y CTR
+Los modos de operación son mecanismos que definen cómo se utiliza un algoritmo de cifrado de bloque para procesar flujos de datos que son más grandes que el tamaño del bloque del algoritmo. Son cruciales para garantizar la seguridad y confidencialidad de la información cifrada.
+
+1. Electronic Codebook Mode (ECB): En el modo ECB, cada bloque de texto plano se cifra independientemente con la misma clave.
+
+2. Cipher Block Chaining Mode (CBC): En el modo CBC, cada bloque de texto plano se suma con el bloque cifrado anterior (o un valor de inicialización) antes de ser cifrado. Esto crea una cadena de dependencias entre los bloques, donde el cifrado de cada bloque depende del contenido del bloque anterior.
+
+3. Counter Mode (CTR): En el modo CTR, se utiliza un contador que se incrementa para cada bloque. El contador se cifra con la clave y el resultado se suma con el texto plano para obtener el texto cifrado.

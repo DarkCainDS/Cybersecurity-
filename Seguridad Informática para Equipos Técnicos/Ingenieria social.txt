@@ -1,0 +1,22 @@
+Ingeniería social
+Es el conjunto de interacciones y técnicas utilizadas por los ciberdelincuentes para manipular psicológicamente a las personas y lograr así un ataque.
+
+La forma de operar puede describirse como un ciclo de vida de tres etapas:
+
+Investigación: Conocer a la víctima y sus hábitos.
+
+Identificar a la víctima.
+Capturar su información.
+Definir un método de ataque.
+Enganche (Hook): Llama la atención de la víctima para establecer contacto.
+
+Enlazar con la victima, iniciar la interacción ofreciendo algo de su interés para generar motivación.
+Control de interacción
+Ejecución (Play): Realizar el ataque.
+
+Teniendo la atención de la victima, ejecutar el ataque.
+Usando vocabulario adecuado, técnicas psicológicas y con convicción, obtener la información que se busca. (pistas para descubrir contraseñas, datos de tarjetas de crédito, etc).
+Eliminación de huellas (Exit): Luego de atacar, eliminar las huellas para no ser detectado.
+
+Finalizar la interacción.
+Eliminar evidencias.

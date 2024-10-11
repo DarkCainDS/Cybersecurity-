@@ -1,0 +1,23 @@
+El control de acceso en Linux se refiere al conjunto de medidas y configuraciones utilizadas para gestionar y regular el acceso a recursos y funciones del sistema operativo Linux. El objetivo principal del control de acceso es proteger la integridad, la confidencialidad y la disponibilidad de los datos y recursos del sistema.
+
+En Linux, el control de acceso se implementa a través de varios mecanismos y componentes. A continuación, se presentan algunos de los principales:
+
+_
+
+Permisos de archivos: Linux utiliza un sistema de permisos de archivos basado en usuarios, grupos y otros. Los permisos de lectura, escritura y ejecución se asignan a propietarios, grupos y otros usuarios, lo que determina qué acciones pueden realizar en un archivo o directorio.
+_
+
+Control de usuarios: Linux administra los usuarios a través de cuentas de usuario individuales. Los administradores pueden crear y eliminar cuentas de usuario, asignar contraseñas y definir los permisos y privilegios asociados a cada cuenta.
+_
+
+Control de grupos: Los grupos en Linux permiten organizar y administrar usuarios con características y permisos similares. Los archivos y directorios pueden estar asignados a un grupo específico, lo que permite que los miembros de ese grupo compartan acceso a esos recursos.
+_
+
+Directivas de seguridad: Linux admite la implementación de directivas de seguridad a través de herramientas como SELinux (Security-Enhanced Linux) o AppArmor. Estas herramientas permiten especificar reglas detalladas sobre qué acciones están permitidas o restringidas para procesos y aplicaciones específicas.
+_
+
+Firewall: Linux incluye herramientas de firewall, como iptables o nftables, que permiten controlar las conexiones de red entrantes y salientes, lo que ayuda a proteger el sistema de posibles amenazas externas.
+_
+
+Autenticación y autorización: Linux utiliza sistemas de autenticación para verificar la identidad de los usuarios, como el uso de contraseñas o autenticación de clave pública. La autorización se basa en la asignación de permisos y privilegios específicos a usuarios y grupos.
+_ Estas son solo algunas de las medidas de control de acceso en Linux. El control de acceso es un aspecto fundamental de la seguridad en el sistema operativo y su implementación adecuada contribuye a proteger los recursos del sistema contra accesos no autorizados. _ Fuente: ChatGPT.

@@ -1,0 +1,11 @@
+La arquitectura de Linux y Unix se divide típicamente en cuatro capas :
+
+Nivel de hardware: este nivel se refiere al hardware físico del sistema, que incluye la CPU, la memoria, los dispositivos de almacenamiento, la tarjeta de red, etc.
+
+Nivel de kernel: esta capa es la que está más cerca del hardware y es responsable de administrar los recursos del sistema, como la memoria y los dispositivos de entrada/salida. El kernel también proporciona una interfaz entre el software del sistema y el hardware subyacente.
+
+Nivel de sistema operativo: esta capa incluye los componentes del sistema operativo que se ejecutan en el nivel del usuario, como los controladores de dispositivos, el administrador de archivos, el shell de línea de comandos, la interfaz gráfica de usuario, etc.
+
+Nivel de aplicación: esta capa es la que está más cerca del usuario final y se compone de las aplicaciones y servicios que se ejecutan en el sistema operativo, como navegadores web, editores de texto, reproductores multimedia, servidores web, etc.
+
+En resumen, la arquitectura de Linux y Unix se divide en cuatro capas: hardware, kernel, sistema operativo y aplicación. Cada capa es responsable de un conjunto específico de funciones y trabaja en conjunto para proporcionar un entorno de computación completo y funcional.

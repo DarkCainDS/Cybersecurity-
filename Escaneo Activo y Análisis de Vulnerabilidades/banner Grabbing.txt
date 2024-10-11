@@ -1,0 +1,5 @@
+Banner Grabbing Es el proceso/técnicas de obtener información (nombres y las versiones) de la infraestructura de una organización (empresa por ejemplo) por medio de una solicitud a un servicio.
+
+La herramienta que podemos emplear son por ejemplo:
+
+NETCAT

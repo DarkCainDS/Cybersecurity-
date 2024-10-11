@@ -1,0 +1,32 @@
+<u>Hash y HMAC </u>
+
+A grandes rasgos, las funciones hash y HMAC son herramientas criptográficas utilizadas para procesar datos, pero con objetivos distintos:
+
+Funciones Hash:
+
+Toman datos de cualquier tamaño y los convierten en un valor de tamaño fijo llamado hash o valor hash.
+Son funciones de "una sola dirección", lo que significa que es difícil o imposible obtener el dato original a partir del hash.
+Se utilizan para:
+Verificar la integridad de los datos (detectar si han sido modificados).
+Almacenar contraseñas de forma segura (guardando el hash, no la contraseña original).
+Crear conjuntos de datos únicos (por ejemplo, conjuntos de archivos).
+HMAC (Hash Message Authentication Code):
+
+Combina una función hash con una clave secreta para generar un código de autenticación de mensaje (MAC).
+Permite verificar la autenticidad de un mensaje, garantizando que no ha sido alterado y proviene de un remitente legítimo.
+Se utiliza en:
+Autenticación de mensajes en aplicaciones web y APIs.
+Protección contra ataques de falsificación de identidad.
+Asegurar la integridad de las actualizaciones de software.
+En resumen:
+
+Las funciones hash se enfocan en la integridad de los datos, mientras que HMAC se centra en la autenticación de mensajes.
+Las funciones hash son de "una sola dirección", mientras que HMAC utiliza una clave secreta para generar un valor de autenticación.
+Ambas son herramientas valiosas en criptografía, pero con propósitos distintos.
+Ejemplo:
+
+Imagina que envías un mensaje importante a un amigo. Para verificar que el mensaje te llegó sin alteraciones, puedes:
+
+Usar una función hash: Calcular el hash del mensaje antes de enviarlo y compartirlo con tu amigo. Al recibirlo, tu amigo calcula el hash del mensaje recibido y lo compara con el hash original. Si coinciden, el mensaje no ha sido modificado.
+Usar HMAC: Compartir una clave secreta con tu amigo. Antes de enviar el mensaje, calculas el HMAC del mensaje utilizando la clave secreta. Al recibirlo, tu amigo calcula el HMAC del mensaje recibido usando la misma clave secreta y lo compara con el HMAC que enviaste. Si coinciden, el mensaje no ha sido alterado ni suplantado.
+Espero que esta explicación aclare la diferencia entre hash y HMAC. Si tienes más preguntas, no dudes en preguntar.

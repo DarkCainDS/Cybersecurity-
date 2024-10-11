@@ -1,0 +1,56 @@
+Cuanto más se conozca el sistema o la red de destino, más opciones se tendrán, por eso es importante llevar a cabo una enumeración adecuada antes de realizar cualquier intento de explotación.
+
+Nmap es una herramienta de exploración de redes y seguridad / escáner de puertos. Fue diseñada para escanear rápidamente grandes redes, aunque funciona bien contra hosts individuales.
+¿Cuál es el objetivo de identificar dispositivos y puertos abiertos?
+Identificar sevicio y sus versiones
+Conocer parte de la topología de red
+Identificar puertos abiertos dentro de la red
+Identificar que sistemas operativos se encuentran en la red
+Sintaxis de nmap
+nmap -Scan-type -option(s) IP
+
+Ejemplos de escaneo
+Escaneo básico
+
+nmap 192.168.0.1/24
+
+Escaneo
+
+nmap -sS -sU -p 192.168.0.1
+
+Nota: Dependiendo del escaneo se necesita permisos de super usuario 💡
+
+-sS →‘Syn Scan’
+-sU → ’UDP Scan’
+-O → ‘Detect OS'
+-sV → 'Dectect service versions'
+-v → 'Verbosidad, se puede usar hasta 3 seguidos'
+-oA → 'Formato principal de guardado de enumeracion'
+-oN → 'Guardar enumeracion en formato Normal'
+-n → 'Eliminas resolucion de DNS'
+-oG → 'Guardar consulta en formato grepable'
+-A → 'Modo agresivo, genera ruido en red pero devuelve toda info'
+-T[1-5] → 'Control velocidad consulta 1 lenta, 5 muy intrusivo'
+-p → 'Escanero de un puerto especifico o rango de puertos'
+-p- → 'Analizar TODOS los puertos'
+--script →'Uso de scripts de la libreria nmap'
+-sT → 'TCP Connect Scan'
+-sN → ‘TCP Null Scan, no maneja banderas en paquete'
+-sF → 'TCP FIN Scan'
+-sX → 'TCP Xmas Scans, por la forma de arbol de navidad que tiene en el paquete'
+-sn → 'Barrido de ping, no escanea solo depende de respuesta ICMP o ARP '
+-Pn → 'Quitamos fase de Discovery, es decir pedimos que no haga ping'
+-iL → 'Indicas uso de un archivo con ips para scanear'
+
+-sS →‘Syn Scan’
+
+-sU → ’UDP Scan’
+-O → ‘Detect OS'
+-sV → 'Dectect service versions'
+-v → 'Verbosidad, se puede usar hasta 3 seguidos'
+-oA → 'Formato principal de guardado de enumeracion'
+-oN → 'Guardar enumeracion en formato Normal'
+-n → 'Eliminas resolucion de DNS'
+-oG → 'Guardar consulta en formato grepable'
+-A → 'Modo agresivo, genera ruido en red pero devuelve toda info'
+Contribución creada con los aportes de: Angie Espinoza (Platzi Contributor).

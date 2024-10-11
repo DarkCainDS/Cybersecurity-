@@ -1,0 +1,27 @@
+Google Hacking
+
+Comandos Básicos
+
+" " Comillas Muestra resultados que tengan la frase exacta contenida en las comillas
+
+y -: incluir y excluir alguna palabra respectivamente, se utiliza delante de la palabra, ej: perro negro –blanco, le dices que muestre todas las coincidencias con perro negro e ignore la palabra blanco.
+(asterisco): funciona como comodín, de una sola palabra.
+. (punto): se puede utilizar como comodín de una o varias palabras.
+
+intitle o allintitle: muestra resultados que contengan la palabra en el título.
+
+inurl o allinurl: muestra resultados que contengan la palabra en la url.
+
+site: muestra resultados de un sitio, ej: site:Wikipedia.org.
+
+filetype: sirve para buscar archivos poniendo la extensión (doc, xls, txt…)
+
+link: muestra los enlaces a una página.
+
+inanchor: muestra resultados que contengan la palabra clave buscada en el texto ancla del enlace.
+
+cache: muestra el resultado en la cache de Google de una página web.
+
+related: busca webs relacionadas con una determinada.
+
+fuente https://wifibit.com/google-hacking/

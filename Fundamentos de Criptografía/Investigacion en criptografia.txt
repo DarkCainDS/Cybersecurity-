@@ -1,0 +1,12 @@
+Investigación en Criptografía
+
+Primitivas criptográficas
+
+Sin llave
+Hashes
+Random numbers
+Llave simétrica
+Ciphers
+LLaves asimétricas
+Publick Key Ciphers
+Signatures

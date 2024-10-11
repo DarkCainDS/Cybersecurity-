@@ -1,0 +1,7 @@
+++Seguridad física:++ Es la rama encargada de los activos fisicos, es decir, información en estado fisico como documentos, DVD, CD, etc. Controles de Seguridad:
+
+Capas de Seguridad: Pueden haber hasta 8 capas ( Perimeter security, Guardhouse, Building Entry, Personal acces to Secure Zone, Lift Access Control, Data hall secure corridor, Data center vault, Rack level access)
+Control de accesos como camaras
+Sistemas de Vigilancia
+Eliminación segura de la información como razgar paleles o CDs que se elimine
+Otras consideraciones: Controles de ambientes como incendios, cortes de electricidad, etc.

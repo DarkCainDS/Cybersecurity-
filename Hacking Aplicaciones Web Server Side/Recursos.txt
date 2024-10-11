@@ -1,0 +1,6 @@
+https://owasp.org/www-project-web-security-testing-guide/latest/
+https://github.com/0xRadi/OWASP-Web-Checklist#Information
+https://zone-h.org/archive/special=1?hz=1
+https://book.hacktricks.xyz/pentesting-web/file-inclusion#lfi-rfi-using-php-wrappers-and-protocols
+https://owasp.org/www-community/attacks/Full_Path_Disclosure
+https://owasp.org/www-community/attacks/Path_Traversal

@@ -1,0 +1,41 @@
+Listar particiones después de crear el disco .
+
+lsblk
+
+sudo fdisk -l
+
+Comando para crear particiones : sudo fdisk /dev/sdb
+
+F : listar las particiones en fdisk
+
+Creando nueva partición fdisk: n
+
+Seleccionar el tipo de partición: p (primaria)
+
+Seleccionar entre 1-4 tamaño inicial por defecto: 1
+
+Indicar el tamaño que quieres la partición : +4G tamaño en Gigabytes.
+
+Por defecto te crea una unidad llamada "sdb1" con el tamaño asignado.
+
+Realiza el proceso con la segunda unidad presionando ENTER para que use el tamaño de disco restante.
+
+Para guardar los cambios presiona : w
+
+Formatear partición con ext4 : sudo mkfs.ext4 /dev/sdb1
+
+Montar la partición: crea una carpeta con mkdir "scripts" : sudo mkdir scripts.
+
+Comando para montar: sudo mount /dev/sdb1 /scripts
+
+Desmontar unidad : sudo umount /dev/sdb1/scripts
+
+Editar el file system para que el disco se monte en el inicio del sistema:
+
+sudo vim /etc/fstab
+
+linea que debes agregar: /dev/sdb1 /scripts ext4 defaults 0 0
+
+12+1: Guardar cambios y reiniciar.
+
+Si tienes problemas o escribiste mal puedes ingresar en modo recovery.

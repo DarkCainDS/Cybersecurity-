@@ -1,0 +1,27 @@
+¿Qué es seguridad informática?
+
+¿Ciberseguridad?
+
+"Todo lo que implica proteger el acceso o uso no autorizado de datos (electrónicos o digitales) ".
+
+Pre requisitos
+
+Redes computacionales
+
+OSI, TCP/IP
+
+Arquitectura de redes
+
+Desarrollo de software / lenguajes de programación
+
+Sistemas computacionales
+
+Sistemas operativos
+
+Arquitectura de sistemas
+
+Normativa y legislación
+
+Aprender inglés es esencial
+
+También experimentar y no perder la curiosidad

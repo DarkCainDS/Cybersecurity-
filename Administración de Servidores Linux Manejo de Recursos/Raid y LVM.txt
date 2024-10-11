@@ -1,0 +1,47 @@
+Diferencias RAID vs LVM
+
+En Linux, tanto RAID como LVM son herramientas poderosas para administrar almacenamiento, pero tienen propósitos diferentes.
+
+RAID (Redundant Array of Independent Disks):
+
+- Definición:
+
+RAID es una tecnología que combina varios discos duros físicos en una sola unidad lógica. Su objetivo principal es mejorar la seguridad y/o rendimiento del almacenamiento.
+
+- Tipos de RAID:
+
+- RAID 0 (Striping): Distribuye datos entre varios discos para mejorar el rendimiento. Sin redundancia, si un disco falla, se pierden los datos.
+
+- RAID 1 (Mirroring): Crea una copia exacta de los datos en dos discos diferentes. Proporciona redundancia, pero no aumenta el rendimiento.
+
+- RAID 5, 6, 10, etc.: Combinaciones de rendimiento y redundancia.
+
+- Uso:
+
+Ideal para servidores y sistemas que requieren alta disponibilidad y tolerancia a fallos.
+
+LVM (Logical Volume Manager):
+
+- Definición:
+
+LVM es una capa de abstracción que permite crear volúmenes lógicos a partir de uno o más discos físicos. Proporciona flexibilidad en la gestión del almacenamiento.
+
+- Características:
+
+- Volúmenes Lógicos (LV): Puedes crear, extender y reducir volúmenes lógicos sin afectar los datos.
+
+- Agrupación de Espacio: Combina espacio de varios discos en un único volumen lógico.
+
+- Snapshots: Permite crear copias instantáneas de volúmenes para respaldos o pruebas.
+
+- Uso:
+
+Útil para sistemas que requieren escalabilidad y cambios dinámicos en el almacenamiento.
+
+- Diferencias Clave:
+
+RAID: Se enfoca en la redundancia y el rendimiento a nivel de bloques.
+
+LVM: Proporciona flexibilidad en la gestión de volúmenes a nivel de archivos.
+
+En resumen, RAID es para la redundancia y el rendimiento, mientras que LVM es para la flexibilidad en la administración del almacenamiento

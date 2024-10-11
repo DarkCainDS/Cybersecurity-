@@ -1,0 +1,55 @@
+¿Qué son los servidores?
+
+Un servidor es un tipo de computadora que se utiliza para proporcionar servicios y recursos a otras computadoras y dispositivos en una red. Los servidores pueden estar diseñados para manejar tareas específicas, como almacenar y compartir archivos, alojar sitios web o aplicaciones, administrar bases de datos o proporcionar servicios de correo electrónico.
+
+Tipos de Servidores
+Hay varios tipos de servidores según su función y su arquitectura, entre ellos:
+
+Servidores de archivo (File servers): almacenan y comparten archivos y carpetas con los usuarios de la red.
+Servidores web (Web servers): alojan sitios web y aplicaciones web.
+Servidores de correo electrónico (Mail servers): gestionan y distribuyen el correo electrónico entre los usuarios de la red.
+Servidores de bases de datos (Database servers): administran y proporcionan acceso a bases de datos para aplicaciones y usuarios.
+
+Servidores de aplicaciones (Application servers): ejecutan aplicaciones de software para clientes y usuarios.
+Servidores de juegos (Game servers): alojan juegos en línea y permiten a los usuarios jugar en línea con otros jugadores.
+Servidores proxy (Proxy servers): actúan como intermediarios entre los clientes de la red y los servidores externos para mejorar la seguridad, el rendimiento y el acceso a Internet.
+Servidores de impresión (Print servers): gestionan y comparten recursos de impresión en la red.
+
+
+Servidores DNS (DNS servers): proporcionan servicios de resolución de nombres de dominio para los clientes de la red.
+Servidores de almacenamiento (Storage servers): ofrecen almacenamiento en red a los usuarios y otros servidores.
+Servidores de streaming (Streaming servers): transmiten audio y video a través de la red.
+Servidores de mensajería (Messaging servers): permiten la comunicación instantánea y el intercambio de mensajes entre usuarios de la red.
+
+
+Servidores de backup (Backup servers): crean y almacenan copias de seguridad de datos de otros servidores y dispositivos en la red.
+Servidores de virtualización (Virtualization servers): permiten la creación y gestión de máquinas virtuales en la red.
+Servidores de autenticación (Authentication servers): proporcionan servicios de autenticación y autorización para los usuarios y dispositivos de la red.
+Servidores de gestión de redes (Network management servers): supervisan y administran la red y sus dispositivos.
+Servidores de VoIP (VoIP servers): permiten la comunicación de voz sobre IP (VoIP) entre usuarios de la red.
+
+---------------------------
+
+¿Qué son los servidores? Un servidor es un grupo de recursos tecnológicos (hardware y software) que cumplen con uno o varios propósitos.
+
+Estos usualmente reciben peticiones de un cliente y luego otorgan una respuesta.
+
+Arquitectura Mainframe Mainframe o servidor principal o proveedor de recursos muy grande Dumb terminal o “terminales tontas” que se conectaban a un Mainframe
+
+Arquitectura Cliente- Servidor
+
+Arquitectura Cliente- Servidor Servidor de muchos recursos Clientes que pueden ser Laptops, celular o computadora de escritorio. e incluso dispositivos IoT. Caso de Uso:
+
+Geforce Now: un servicio de Nvidia, para conectarse a un servidor remoto que seria en este caso un servidor gaming a través de internet, en el cual todo el procesamiento del videojuego se hace en ese servidor y luego regresa en streaming con una latencia muy baja que permite jugar juegos sin tener un computador gamer en casa.
+
+Algunos tipos de servidores
+
+Web (frontend, backend)
+Bases de datos
+De pruebas
+Videojuegos
+Medios
+Email
+Impresión
+Archivos y recursos (SFTP, SMB)
+VoIP

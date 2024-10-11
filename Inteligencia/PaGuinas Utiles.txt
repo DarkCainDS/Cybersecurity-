@@ -1,0 +1,40 @@
+httpshaveibeenpwned.com:
+//Sitio web para saber en cuantas bases de datos se ha filtrado un correo electronico.
+
+https://intelx.io/ : 
+//Sitio Web para obtener las bases de datos de los correos filtrados
+
+https://archive.org/ : 
+//Sitio para ver WayBackMachine, WayBackMachine es para visualizar pag antiguas.
+
+https://viewdns.info/reverseip/ :  https://networkappers.com/ : 
+ Reverse IP Lookup:Takes a domain or IP address and does a reverse lookup to quickly shows all other domains hosted from the same server. Useful for finding phishing sites or identifying other sites on the same shared hosting server.
+
+//Sitio para revisar los dominios asociados entre la base datos y asi encontrar vulnerabilidades "Hackeables".
+//Enfocado a un ataque en entorno de disco duro para lograr un objetivo.
+
+https://www.shodan.io/  :
+
+//Sitio para encontrar vulnerabilidades por dicha ip o domain.
+//Y muchas otras cosas por ver ("Pendiente").
+
+Shodan Una herramienta ideal para llevar acabo un analisis de servidores
+
+En el buscador de Shodan se ingresa la ip del servidor que queremos examinar,
+Nos muestra
+Ubicacion fisica del servidor
+Puertos abiertos
+Servicios del servidor
+Que tecnologias web usa
+Muestra las vulnerabilidades conocidas con su codigo CVE que podría tener si no tiene puesto parche manual
+Otra funcionalidad que tienen Shodan es la de mostrarnos dispositivos en todo Internet como
+
+Sistemas de control industrial
+Base de datos
+Infra estructura de red
+Webcam
+Servidores de vídeo juegos
+Dispositivos IOT
+
+https://github.com/aboul3la/Sublist3r  :
+//Sitio para analizar los subdominios, buscar otros dominios en el servidor compartido.

@@ -1,0 +1,63 @@
+Seguridad de la información: área de la seguridad informática que se enfoca en las normativas y protección de datos:
+
+Normativas: leyes que regulan la seguridad informática y su cumplimiento, tales como la normativa ISO 27001 de protección de datos personales
+
+Protección de Datos:
+
+Prevención de Pérdida de Datos: prácticas para proteger los datos, sistemas de respaldo, aseguramiento de infraestructura, seguridad física y digital, etc.
+Continuidad del negocio: planificación estratégica en caso de que suceda una brecha de seguridad. Implica creación de manuales de procedimientos según normativas, análisis de impacto (cualitativo o cuantitativo, que es dinero) y riesgo (Escala de Riesgos) y la Gestión de Incidentes.
+Código seguro:
+
+Autenticación segura
+buenas prácticas de programación orientadas a cybersec
+OWASP para devs o Requisitos de Seguridad en Aplicaciones
+Arquitectura de seguridad en las aplicaciones: define la manera en que va a escalar luego nuestro sistema.
+Seguridad Aplicativa: relacionado con la fortaleza de las aplicaciones, sus vulnerabilidades y las pruebas de penetración (pentesting) o ethical hacking.
+
+Web: proteger a las aplicaciones web de múltiples vectores de ataques; recomendable seguir el OWASP Top 10 Web Risks
+Mobile:
+Análisis Estático: análisis de la app mobile en su código, su configuración de almacenamiento de datos, integridad y confidencialidad de datos.
+Análisis Dinámico: análisis de la app mobile en su funcionamiento, tratando de descubrir bugs, fallos de respuesta, malas funcionalidades que comprometan la seguridad de datos.
+Redes:
+Arquitecturas de red seguras: protección de la intranet con DMZ, Firewaals de borde, sistemas de detección y protección de intrusiones (IDS/IPS)
+Protección de servidores: mantener actualizado, parcheado, configurar correctamente las respuesta desde backend, proteger de Denegación de servicio (DoS/DDoS) con balanceadores de carga, etc.
+Cifrados: utilización de comunicación encriptada, por ej, SSH en vez de telnet, certificados SSL de 2048 bits, TLSv1.2 en adelante, etc.
+Criptografía: rama que estudia cómo cifrar datos para mantenerlos íntegros.
+
+Esteganografía: ocultar mensajes entre datos multimedia: imágenes, audio, video, texto.
+Cifrado: algoritmos de cifrado o las formas en que se puede encriptar data. Importantes conceptos: fortaleza de cifrado, claves, algoritmos. Importante: conocimientos de álgebra, cálculo.
+Redes: rama que estudia la infraestructura de red, su conectividad y seguridad.
+
+Hardware:
+Tecnologías: wifi, 4g, bluetooth, ethernet, etc.
+Escala: tamaño de la red, configuración de subredes y enrutamiento (cálculos de IP, tablas de enrutamiento).
+Dispositivos: routers, switches, servidores, terminales, cables, etc y su configuración.
+Arquitectura: tipos de configuración de redes, redes LAN y WAN, INTERNET.
+Software:
+Jerarquía de protocolos: modelo OSI y modelo TCP/IP
+Ingeniería Social: tipo de ataque en el que se intenta engañar y estafar a la víctima utilizando conocimientos sobre ella (datos personales, gustos, tendencias, relaciones, afiliaciones, servicios que consuma), muy expandido actualmente. El usuario es siempre el eslabón más débil.
+
+Phishing: emails fraudulentos que intentan engañar a la víctima para que haga click en links que redirigen a sitios webs fraudulentos, con el fin de robar información sensible como credenciales e información bancaria.
+Vishing: llamadas telefónicas que intentan engañar a la víctima para obtener de ella información sensible relevante, con el fin de secuestrar cuentas de usuario, suplantar identidad, etc.
+Ciberinteligencia: Rama de investigación a través de medios digitales, en gran parte se realiza como OSINT: Open Source Intelligence, o Inteligencia de Fuentes Abiertas, que es la obtención de información que se encuentra publicada en internet en diferentes fuentes, tales como sitios web, redes sociales, documentos y filtraciones. Se utilizan técnicas y herramientas tales como: motores de búsqueda (Google, Bing, Baidu), servicios web que detectan tecnologías y todo tipo de información de dispositivos y geográfica (Netcraft, Builtwith, Shodan), redes sociales y algunos servicios de hallar datos personales, herramientas automatizadas (WHOIS y DIG para datos DNS y bloques IP; theHarvester para recolectar emails y subdominios expuestos), y un largo etc.
+
+Informática forense (forensics): Rama que estudia cómo encontrar las fallas que se produjeron en un sistema determinado, los procedimientos para evitar perjuicio de las pruebas del delito, la correcta cadena de custodia y cómo se presentan judicialmente. Requiere conocimientos de registros de sistemas operativos (logs), de hardware y software pertinente a la recuperación de data borrada o dispositivos inutilizados, de lenguajes de programación de bajo nivel, de leyes, etc.
+
+Ética --> Ethical Hacking: es la rama que estudia cómo vulnerar los sistemas para reportar las fallas para su mitigación. Es "ético" porque la finalidad que tiene el hackeo es de encontrar las fallas antes que los ciberdelincuentes, y poder así recomendar a los clientes los procedimientos de mitigación de las vulnerabilidades encontradas. Tiene siempre autorización legal para realizar las pruebas. Entre dichas pruebas se encuentran:
+
+Análisis y asesoría de riesgos de vulnerabilidades (en la práctica, VRA: Vulnerability Risk Assessment): escaneos de sistemas con el fin de hallar y reportar vulnerabilidades.
+Pentesting: "pentration testing" son las pruebas de intrusión que se realizan explotando las vulnerabilidades halladas.
+Por lo general, se intenta demostrar que se puede tomar control de un servidor explotando una vulnerabilidad que abra una brecha en las defensas del sistema, y luego escalando privilegios a root o SYSTEM.
+En el caso del pentesting web, se intenta explotar las OWASP top 10 Riesgos Web, donde la más importante sigue siendo obtener la base de datos con ataques de inyección SQL o ejecución remota.
+Las pruebas DoS Denegación de Servicio no son las más solicitadas en genral, pero pueden ser solicitadas como "pruebas de estrés". No confundir con pruebas de rendimiento. Una prueba DoS intenta tumbar el servicio y servidor, y reportar el límite de conexiones que aguanta el sistema.
+Hacking ético Red Team: es más emplio que el pentesting, involucra también pruebas de ingeniería social de todo tipo (phishing, vishing, disfrazarse y entrar a la empresa objetivo para robar hardware, espiar a empleados, buscar en la basura, etc), además que las pruebas de intrusión pueden conllevar un mayor nivel de explotación: no se limita a ganar privilegios en el sistema, sino que pruebas pivoting, instalación de backdoors y troyanos encubiertos, filtración de datos, y mucho más. Hay diversos tipos de clasificación de hackers: white-hat: ético, black-hat: cibercriminal, grey-hat: ético o criminal según conveniencia, script-kiddie: (despectivo) principiante necio que sólo ejecuta cosas sin conocimiento profundo del hacking; hacktivismo: hackers que actúan por lo general en conjunto, siguiendo ideologías y se organizan a través de foros en la deepweb (Ej: 4chan desde donde surgió Anonymous); entre otros tipos.
+Scripting: para quienes les gusta programar. Rama que se enfoca en creación de exploits.
+
+Exploits: código malicioso que aprovecha un fallo de seguridad (vulnerabilidad) que existe en un sistema operativo.
+Payloading: desarrollo de "cargas útiles", es decir, un fragmento de código que explota de una forma determinada una vulnerabilidad. Por ello cada payload es para una vulnerabilidad específica, que además hay de diferentes tipos, como pueden ser self-reverse, CND, HTTP, HTTPS, reversa, inversa, etc.
+Bash-scripting
+Por ej. puede haber una vulnerabilidad en un sistema operativo en el manejo que hace de las conexiones de cierto servicio y puerto que permitiría una conexión remota indeseada. Un exploit es el código que explota esta falla y logra esa conexión remota; un payload es el código que el exploit inserta una vez lograda la conexión remota para por ej. crear un shell reverso qeu controle el atacante. Exploit es la nave; payload son las bombas lanzadas tras la frontera.
+Malware:
+Análisis de malware: investigación del código del malware, su interacción y comportamiento. Se lleva a cabo a nivel de código y a nivel de red. Relacionado con Forense de malware.
+Protección de Malware: antivirus, sistemas de detección de malware.
+IA + Malware: machine learning para detección de malware.

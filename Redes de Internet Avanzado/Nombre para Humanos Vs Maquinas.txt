@@ -1,0 +1,10 @@
+Nombres para humanos vs nombres para máquinas
+Las computadoras pueden entender muy fácilmente las direcciones de computadoras, pero es difícil para humanos. Usamos el DNS para traducir el número a una dirección web.
+
+SOA: dueño del registro del dominio
+Tipo A: Mapea un nombre con una IP
+CNAME: Alias de un nombre que ya existe
+NS: Servidor de nombres
+MX: Servidor de correo
+PTR: Registro reverso, ayuda a evitar la suplantación, especialmente en servidores de correo
+Network Tools

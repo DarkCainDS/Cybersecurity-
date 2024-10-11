@@ -1,0 +1,22 @@
+Habilidades y Roles de un Administrador
+Habilidades clave:
+Control de accesos.
+Monitoreo del sistema.
+Administración de recursos.
+Troubleshooting.
+Instalación y mantenimiento de software.
+Creación de respaldos.
+Documentación.
+Roles que puedes desempeñar:
+DevOps Engineer:
+Se enfocan en los procesos y metodologías para la correcta liberación en el proceso de desarrollo de software.
+Site Reliability Engineer:
+Se enfocan en que los sistemas de software operen de manera correcta y con el mayor grado de confiabilidad posible.
+Security Operations Engineer:
+Encargados de mantener la seguridad de los sistemas a nivel de red y aplicaciones.
+Algunos otros roles:
+Network Engineer.
+Database Administrator.
+Network Operation Center Engineer.
+MLOps Engineer.
+Cloud Engineer.

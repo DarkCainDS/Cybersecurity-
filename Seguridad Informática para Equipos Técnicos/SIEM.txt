@@ -1,0 +1,27 @@
+Correlación y gestión de eventos (SIEM - Security Information and Event Management)
+Es el campo de la seguridad informática que se encarga de analizar de forma centralizada los eventos de seguridad generados por los diferentes controles (Firewall, IDS, etc.) , con el fin de analizarla en su contexto, detectar anomalías y tomar acciones.
+
+Un caso de ejemplo podría ser si se detecta un flujo de paquetes mas alto de lo normal en una tienda online, por si solo se podría sospechar de un ataque, pero si se analiza en el contexto de que un producto está de oferta, podría considerarse normal.
+
+El funcionamiento de un SIEM es el siguiente:
+
+Gestión de registros: Recopilar información desde los diferentes controles de seguridad.
+Correlación de eventos y análisis: Analizar la información recopilada en su conjunto y detectar anomalías.
+Monitoreo de incidentes y alertas de seguridad: El monitoreo se realiza de forma continua, y se envían alertas cuando la probabilidad de estar bajo un ataque es alta.
+Gestión de compliance y informes: Extracción de reportes para registros históricos, cumplir con normas y estándares.
+Capacidades:
+
+Agregación de Información:
+Correlación:
+Alerta:
+Dashboard:
+Compliance:
+Retención:
+Análisis Forense:
+Importancia:
+
+Detección de Zero-Days: Detecta amenazas para las que otros sistemas no poseen parches.
+Normalización y categorización de logs: Ayuda a la organización de la información recabada.
+Visualización de eventos: Permite visualizar la información de forma gráfica.
+Detección de malas configuraciones: Permite realizar configuraciones adecuadas en base al comportamiento normal de la red.
+Puede detectar comunicaciones maliciosas y canales encriptados

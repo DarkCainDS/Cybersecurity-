@@ -1,0 +1,9 @@
+DLP (Data Lost Prevention)
+Son sistemas que detectan y previenen fugas de información, incluyendo información que esté siendo usada en cada dispositivo, en movimiento a través de la red, y almacenada en dispositivos o servidores.
+
+Estos sistemas son necesarios para:
+
+Previene fuga de información sensible de la empresa.
+Protección de datos personales.
+Protecciónde propiedad intelectual.
+Cumplimiento de normativas.
